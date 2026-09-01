@@ -7,7 +7,7 @@
 
 export const paverHero = {
   image:
-    'https://coneccconcrete.com/wp-content/uploads/2025/08/Different-Sizes-CONECC-AAC-Blocks.webp', // TODO: replace with real Paver Blocks banner photo
+    '/images/Shreeji_Hero_Banner.jpg', // TODO: replace with real Paver Blocks banner photo
   imageAlt: 'Conecc interlocking paver blocks laid on a driveway',
   title: 'Paver Blocks',
   subtitle: 'Durable, Decorative Interlocking Pavers For Every Space.',
@@ -29,7 +29,7 @@ export const paverApplications = {
       description:
         'Ideal for parking lots, footpaths, plazas, malls, and industrial yards where high durability and load-bearing capacity are essential.',
       image:
-        'https://coneccconcrete.com/wp-content/uploads/2025/08/Different-Sizes-CONECC-AAC-Blocks.webp', // TODO: real photo
+        '/images/Shreeji_Product_Hero_Group.jpg', // TODO: real photo
       imageAlt: 'Paver blocks used in a commercial parking lot',
     },
     {
@@ -37,7 +37,7 @@ export const paverApplications = {
       description:
         'Perfect for driveways, garden pathways, patios, and poolside decking — combining durability with a wide choice of decorative finishes.',
       image:
-        'https://coneccconcrete.com/wp-content/uploads/2025/08/Different-Sizes-CONECC-AAC-Blocks.webp', // TODO: real photo
+        '/images/Shreeji_Product_Hero_Group.jpg', // TODO: real photo
       imageAlt: 'Paver blocks used in a residential driveway',
     },
   ],
@@ -61,28 +61,28 @@ export const paverGallery = {
     {
       name: 'I-Shape Interlock', // TODO: confirm real design name
       image:
-        'https://coneccconcrete.com/wp-content/uploads/2025/08/Different-Sizes-CONECC-AAC-Blocks.webp', // TODO: real photo
+        '/images/Shreeji_Product_Hero_Group.jpg', // TODO: real photo
       imageAlt: 'I-shape interlocking paver block design',
       colorNames: ['Grey', 'Red', 'Charcoal'],
     },
     {
       name: 'Zigzag Interlock', // TODO: confirm real design name
       image:
-        'https://coneccconcrete.com/wp-content/uploads/2025/08/Different-Sizes-CONECC-AAC-Blocks.webp', // TODO: real photo
+        '/images/Shreeji_Product_Hero_Group.jpg', // TODO: real photo
       imageAlt: 'Zigzag interlocking paver block design',
       colorNames: ['Grey', 'Yellow', 'Terracotta'],
     },
     {
       name: 'Hexagon Paver', // TODO: confirm real design name
       image:
-        'https://coneccconcrete.com/wp-content/uploads/2025/08/Different-Sizes-CONECC-AAC-Blocks.webp', // TODO: real photo
+        '/images/Shreeji_Product_Hero_Group.jpg', // TODO: real photo
       imageAlt: 'Hexagon paver block design',
       colorNames: ['Red', 'Charcoal', 'Terracotta'],
     },
     {
       name: 'Rectangular Paver', // TODO: confirm real design name
       image:
-        'https://coneccconcrete.com/wp-content/uploads/2025/08/Different-Sizes-CONECC-AAC-Blocks.webp', // TODO: real photo
+        '/images/Shreeji_Product_Hero_Group.jpg', // TODO: real photo
       imageAlt: 'Rectangular paver block design',
       colorNames: ['Grey', 'Red', 'Yellow', 'Charcoal'],
     },

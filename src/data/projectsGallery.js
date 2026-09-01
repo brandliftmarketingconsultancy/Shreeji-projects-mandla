@@ -8,7 +8,7 @@
 
 export const galleryHero = {
   image:
-    'https://coneccconcrete.com/wp-content/uploads/2026/03/Cover-Img-Website.webp',
+    '/images/Shreeji_Hero_Banner.jpg',
   imageAlt: 'Conecc AAC blocks used on a construction site',
   eyebrow: 'Our Work',
   title: 'Projects & Gallery',
@@ -31,7 +31,7 @@ export const projects = [
     category: 'aac',
     location: 'Hospet, Karnataka', // TODO: confirm real project location
     image:
-      'https://coneccconcrete.com/wp-content/uploads/2026/03/AAC-Blocks-Conecc-Lightweight.webp',
+      '/images/factory-3.jpg',
     imageAlt: 'AAC block wall under construction',
   },
   {
@@ -40,7 +40,7 @@ export const projects = [
     category: 'aac',
     location: 'Bengaluru, Karnataka', // TODO: confirm real project location
     image:
-      'https://coneccconcrete.com/wp-content/uploads/2026/03/Ribbed-Face-CONECC-AAC.webp',
+      '/images/Shreeji_Product_Detail_Row.jpg',
     imageAlt: 'Ribbed face AAC blocks installed on a wall',
   },
   {
@@ -49,7 +49,7 @@ export const projects = [
     category: 'residential',
     location: 'Hubballi, Karnataka', // TODO: confirm real project location
     image:
-      'https://coneccconcrete.com/wp-content/uploads/2026/03/Farmer-CONECC-Budget-Friendly-AAC.webp',
+      '/images/shreeji-contractor-portrait.jpg',
     imageAlt: 'Residential building built with Conecc AAC blocks',
   },
   {
@@ -58,7 +58,7 @@ export const projects = [
     category: 'residential',
     location: 'Vijayanagara, Karnataka', // TODO: confirm real project location
     image:
-      'https://coneccconcrete.com/wp-content/uploads/PLACEHOLDER-residential-2.webp', // TODO: real photo
+      '/images/Shreeji_Weight_Comparison.jpg', // TODO: real photo
     imageAlt: 'Independent house built with Conecc AAC blocks',
   },
   {
@@ -66,36 +66,36 @@ export const projects = [
     title: 'Corporate Office Complex',
     category: 'commercial',
     location: 'Hospet, Karnataka', // TODO: confirm real project location
-    image: 'https://coneccconcrete.com/wp-content/uploads/2025/03/after-min.jpg',
+    image: '/images/factory.jpg',
     imageAlt: 'Commercial building constructed with Conecc AAC blocks',
   },
-  {
-    id: 6,
-    title: 'Commercial Complex Fit-Out',
-    category: 'commercial',
-    location: 'Goa', // TODO: confirm real project location
-    image:
-      'https://coneccconcrete.com/wp-content/uploads/PLACEHOLDER-commercial-2.webp', // TODO: real photo
-    imageAlt: 'Commercial complex built with Conecc AAC blocks',
-  },
-  {
-    id: 7,
-    title: 'Fly Ash Brick Boundary Wall',
-    category: 'flyash-paver',
-    location: 'Amaravathi, Karnataka', // TODO: confirm real project location
-    image:
-      'https://coneccconcrete.com/wp-content/uploads/PLACEHOLDER-flyash-project.webp', // TODO: real photo
-    imageAlt: 'Boundary wall built with fly ash bricks',
-  },
-  {
-    id: 8,
-    title: 'Paver Block Driveway',
-    category: 'flyash-paver',
-    location: 'Mangaluru, Karnataka', // TODO: confirm real project location
-    image:
-      'https://coneccconcrete.com/wp-content/uploads/PLACEHOLDER-paver-project.webp', // TODO: real photo
-    imageAlt: 'Driveway paved with Conecc paver blocks',
-  },
+  // {
+  //   id: 6,
+  //   title: 'Commercial Complex Fit-Out',
+  //   category: 'commercial',
+  //   location: 'Goa', // TODO: confirm real project location
+  //   image:
+  //     'https://coneccconcrete.com/wp-content/uploads/PLACEHOLDER-commercial-2.webp', // TODO: real photo
+  //   imageAlt: 'Commercial complex built with Conecc AAC blocks',
+  // },
+  // {
+  //   id: 7,
+  //   title: 'Fly Ash Brick Boundary Wall',
+  //   category: 'flyash-paver',
+  //   location: 'Amaravathi, Karnataka', // TODO: confirm real project location
+  //   image:
+  //     'https://coneccconcrete.com/wp-content/uploads/PLACEHOLDER-flyash-project.webp', // TODO: real photo
+  //   imageAlt: 'Boundary wall built with fly ash bricks',
+  // },
+  // {
+  //   id: 8,
+  //   title: 'Paver Block Driveway',
+  //   category: 'flyash-paver',
+  //   location: 'Mangaluru, Karnataka', // TODO: confirm real project location
+  //   image:
+  //     'https://coneccconcrete.com/wp-content/uploads/PLACEHOLDER-paver-project.webp', // TODO: real photo
+  //   imageAlt: 'Driveway paved with Conecc paver blocks',
+  // },
 ]
 
 export const galleryStats = [

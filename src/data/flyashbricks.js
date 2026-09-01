@@ -7,7 +7,7 @@
 
 export const flyAshHero = {
   image:
-    'https://coneccconcrete.com/wp-content/uploads/2025/08/Different-Sizes-CONECC-AAC-Blocks.webp', // TODO: replace with real Fly Ash Bricks banner photo
+    '/images/Shreeji_Product_Hero_Group.jpg', // TODO: replace with real Fly Ash Bricks banner photo
   imageAlt: 'Conecc Fly Ash Bricks stacked on a construction site',
   title: 'Fly Ash Bricks',
   subtitle: 'Eco-Friendly, High Strength Bricks Made From Thermal Power Plant Waste.',
@@ -29,7 +29,7 @@ export const flyAshWhyConecc = {
       description:
         'Higher compressive strength than conventional red clay bricks, reducing structural load and improving durability.',
       image:
-        'https://coneccconcrete.com/wp-content/uploads/2025/08/Different-Sizes-CONECC-AAC-Blocks.webp', // TODO: real product photo
+        '/images/Shreeji_Product_Hero_Group.jpg', // TODO: real product photo
       imageAlt: 'Fly ash brick strength testing',
     },
     {
@@ -37,7 +37,7 @@ export const flyAshWhyConecc = {
       description:
         'Precision-molded for consistent dimensions, resulting in less mortar usage and cleaner, straighter walls.',
       image:
-        'https://coneccconcrete.com/wp-content/uploads/2025/08/Different-Sizes-CONECC-AAC-Blocks.webp', // TODO: real product photo
+        '/images/Shreeji_Product_Hero_Group.jpg', // TODO: real product photo
       imageAlt: 'Uniform fly ash bricks stacked',
     },
     {
@@ -45,7 +45,7 @@ export const flyAshWhyConecc = {
       description:
         'Made using fly ash, an industrial by-product, reducing dependency on topsoil mining used for conventional bricks.',
       image:
-        'https://coneccconcrete.com/wp-content/uploads/2025/08/Different-Sizes-CONECC-AAC-Blocks.webp', // TODO: real product photo
+        '/images/Shreeji_Product_Hero_Group.jpg', // TODO: real product photo
       imageAlt: 'Fly ash bricks eco-friendly manufacturing',
     },
   ],

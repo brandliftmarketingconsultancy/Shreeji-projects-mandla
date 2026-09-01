@@ -1,5 +1,5 @@
 export const hero = {
-  image: 'https://coneccconcrete.com/wp-content/uploads/2026/03/Cover-Img-Website.webp',
+  image: '/images/Shreeji_Hero_Banner.jpg',
   imageAlt: 'Construction worker placing a Conecc AAC block',
   titleLine1: 'High Quality Lightweight',
   titleHighlight: 'AAC Blocks',
@@ -18,7 +18,7 @@ export const ribbedFace = {
   title: 'Ribbed Face AAC Blocks',
   subtitle:
     'Provides Excellent Adhesion Of Mortar With The Blocks, And Makes Exceptionally Strong Joints Between Blocks. Make Stronger Walls With Our AAC Blocks!',
-  image: 'https://coneccconcrete.com/wp-content/uploads/2026/03/Ribbed-Face-CONECC-AAC.webp',
+  image: '/images/Shreeji_Product_Detail_Row.jpg',
   imageAlt: 'Conecc ribbed face AAC blocks, four sizes shown',
   cta: 'Read More',
   ctaHref: '/products/aac-blocks',
@@ -37,7 +37,7 @@ export const productsSection = {
 
 export const whyChooseUs = {
   imageSide: 'right',
-  image: 'https://coneccconcrete.com/wp-content/uploads/2026/03/AAC-Blocks-Conecc-Lightweight.webp',
+  image: '/images/Shreeji_Mason_Placing_Block.jpg',
   imageAlt: 'Worker holding a Conecc AAC block inside a building under construction',
   badgeIcon: 'feather',
   badgeLabel: '3 Times Lighter Than Red Bricks',
@@ -55,7 +55,7 @@ export const whyChooseUs = {
 
 export const affordablePromo = {
   imageSide: 'left',
-  image: 'https://coneccconcrete.com/wp-content/uploads/2026/03/Farmer-CONECC-Budget-Friendly-AAC.webp',
+  image: '/images/shreeji-contractor-portrait.jpg',
   imageAlt: 'Mason building a wall with Conecc AAC blocks in a rural site',
   badgeIcon: 'piggyBank',
   badgeLabel: 'Build Your Dream Home In Budget',
@@ -129,7 +129,7 @@ export const features = [
 ]
 
 export const products = [
-  { title: 'AAC Blocks', image: 'https://coneccconcrete.com/wp-content/uploads/2026/03/Conecc-AAC-Block-Product-1.webp', href: '/products/aac-blocks' },
+  { title: 'AAC Blocks', image: '/images/shreeji-engineer-holding-block.png', href: '/products/aac-blocks' },
   { title: 'Jointing Mortar', image: 'https://coneccconcrete.com/wp-content/uploads/2026/06/Conecc-AAC-Block-Jointing-Mortar-Bag.webp', href: '/products/jointing-mortar' },
   { title: 'Ready Mix Plaster', image: 'https://coneccconcrete.com/wp-content/uploads/2026/06/Conecc-Ready-Mix-Plaster-Bag.webp', href: '/products/ready-mix-plaster' },
   { title: 'Precast Walls', image: 'https://coneccconcrete.com/wp-content/uploads/2026/03/3-1.jpg', href: '/products/precast-walls' },
@@ -225,7 +225,7 @@ export const contactMap = {
 
 export const aboutHero = {
   image:
-    'https://coneccconcrete.com/wp-content/uploads/2026/03/Cover-Img-Website.webp', // TODO: replace with a dedicated About Us hero image
+    '/images/Shreeji_Hero_Banner.jpg', // TODO: replace with a dedicated About Us hero image
   imageAlt: 'Conecc Concrete Solutions manufacturing plant',
   eyebrow: 'About Conecc',
   title: 'Who We Are',
@@ -242,7 +242,7 @@ export const whoWeAre = {
     'TODO: Add a paragraph on certifications (BIS, ISO 9001:2015, IGBC) and what sets Conecc apart from other manufacturers.',
   ],
   image:
-    'https://coneccconcrete.com/wp-content/uploads/2025/03/after-min.jpg', // TODO: swap for a dedicated Who We Are photo if available
+    '/images/factory.jpg', // TODO: swap for a dedicated Who We Are photo if available
   imageAlt: 'Conecc AAC block manufacturing plant',
   cta: 'Get in Touch',
   ctaHref: '/contact',

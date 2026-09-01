@@ -7,7 +7,7 @@
 
 export const manufacturingHero = {
   image:
-    'https://coneccconcrete.com/wp-content/uploads/PLACEHOLDER-manufacturing-hero.webp', // TODO: replace with real plant banner photo
+    '/images/factory.jpg', // TODO: replace with real plant banner photo
   imageAlt: 'Conecc AAC block manufacturing plant floor',
   eyebrow: 'Behind The Blocks',
   title: 'Our Manufacturing',
@@ -22,25 +22,25 @@ export const plantGallery = {
     {
       caption: 'Automated Batching Plant',
       image:
-        'https://coneccconcrete.com/wp-content/uploads/PLACEHOLDER-plant-batching.webp', // TODO: real photo
+        '/images/factory-1.jpg', // TODO: real photo
       imageAlt: 'Conecc automated batching plant',
     },
     {
       caption: 'AAC Production Line',
       image:
-        'https://coneccconcrete.com/wp-content/uploads/2026/03/Cover-Img-Website.webp',
+        '/images/factory-3.jpg',
       imageAlt: 'Conecc AAC block production line',
     },
     {
       caption: 'Autoclave Chamber',
       image:
-        'https://coneccconcrete.com/wp-content/uploads/PLACEHOLDER-plant-autoclave.webp', // TODO: real photo
+        '/images/factory-2.jpg', // TODO: real photo
       imageAlt: 'Conecc autoclave chamber',
     },
     {
       caption: 'Finished Goods Yard',
       image:
-        'https://coneccconcrete.com/wp-content/uploads/2025/03/after-min.jpg',
+        '/images/factory.jpg',
       imageAlt: 'Conecc finished goods storage yard',
     },
   ],

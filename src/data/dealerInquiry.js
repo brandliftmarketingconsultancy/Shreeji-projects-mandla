@@ -5,6 +5,7 @@
 /* ------------------------------------------------------------------ */
 
 export const dealerHero = {
+  image:'/images/Shreeji_Hero_Banner.jpg',
   eyebrow: 'Become A Dealer',
   title: 'Dealer Inquiry',
   subtitle: 'Partner with Conecc — tell us about your business and monthly requirement.',

@@ -7,7 +7,7 @@
 
 export const resourcesHero = {
   image:
-    'https://coneccconcrete.com/wp-content/uploads/2025/03/after-min.jpg',
+    '/images/factory.jpg',
   imageAlt: 'Conecc AAC block manufacturing plant',
   eyebrow: 'Resource Library',
   title: 'Technical Resources',

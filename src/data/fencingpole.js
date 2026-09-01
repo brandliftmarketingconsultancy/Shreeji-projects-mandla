@@ -7,7 +7,7 @@
 
 export const fencingHero = {
   image:
-    'https://images.jdmagicbox.com/quickquotes/images_main/rectangular-rcc-fencing-pole-2221045681-br8afz9t.jpg', // TODO: replace with real Fencing Pole banner photo
+    '/images/Shreeji_Hero_Banner.jpg', // TODO: replace with real Fencing Pole banner photo
   imageAlt: 'Conecc RCC fencing poles installed along a boundary',
   title: 'Fencing Pole',
   subtitle: 'Strong, Weather-Resistant RCC Poles For Every Boundary.',

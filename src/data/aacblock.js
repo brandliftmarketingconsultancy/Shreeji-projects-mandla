@@ -6,7 +6,7 @@
 
 export const aacHero = {
   image:
-    'https://coneccconcrete.com/wp-content/uploads/2026/03/Conecc-AAC-Block-Product-1.webp',
+    '/images/Shreeji_Hero_Banner.jpg',
   imageAlt: 'Conecc AAC Block',
   eyebrow: 'Our Product',
   title: 'CONECC AAC Blocks',
@@ -27,21 +27,21 @@ export const whyConecc = {
       title: 'High Quality',
       description:
         'With our precision manufacturing, stringent quality control, and the use of top-notch raw materials, ensuring our aac blocks have consistent durability and performance in diverse construction applications.',
-      image: 'https://coneccconcrete.com/wp-content/uploads/2025/08/High-Quality-CONECC-AAC-Blocks-1024x1024.webp', // TODO: replace with real 14kg vs 42kg scale comparison photo
+      image: '/images/Shreeji_Weight_Comparison.jpg', // TODO: replace with real 14kg vs 42kg scale comparison photo
       imageAlt: 'Conecc AAC block weighed against a red brick stack',
     },
     {
       title: 'Different Sizes',
       description:
         'Conecc AAC Blocks are available in multiple sizes, typically ranging from 75mm, 100mm, 125mm, 150mm, 200mm, 230mm, 250mm, and 300mm thickness, with standard lengths of 600mm and heights of 200mm.',
-      image: 'https://coneccconcrete.com/wp-content/uploads/2026/03/Conecc-AAC-Block-Product-1.webp',
+      image: '/images/Shreeji_Mason_Placing_Block.jpg',
       imageAlt: 'Conecc AAC blocks in different sizes with a hard hat',
     },
     {
       title: 'Ribbed Face',
       description:
         'CONECC AAC Blocks comes with a unique ribbed finish on the face. It helps in better bonding of plaster with the blocks. Due to the ribbed face only, you can directly apply wall putty or Plaster of Paris without plastering.',
-      image: 'https://coneccconcrete.com/wp-content/uploads/2026/03/Ribbed-Face-CONECC-AAC.webp',
+      image: '/images/Shreeji_Product_Detail_Row.jpg',
       imageAlt: 'Conecc ribbed face AAC block under a magnifying glass',
     },
   ],
