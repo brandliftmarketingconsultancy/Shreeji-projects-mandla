@@ -9,7 +9,7 @@ export default function FencingHero() {
         <img
           src={fencingHero.image}
           alt={fencingHero.imageAlt}
-          className="w-full h-full object-cover"
+          className="absolute inset-0 w-full h-full object-cover object-[65%_center] lg:object-center"
         />
       </div>
 

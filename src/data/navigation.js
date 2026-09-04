@@ -24,7 +24,7 @@ export const navLinks = [
       // { label: 'Certifications', href: '/certifications' },
     ],
   },
-  { label: 'Dealer Inquiry', href: '/dealer-inquiry' },
+  // { label: 'Dealer Inquiry', href: '/dealer-inquiry' },
   { label: 'Contact', href: '/contact' },
   { label: 'Blogs', href: '/blogs' },
 ]

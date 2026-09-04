@@ -16,16 +16,16 @@ export default function Header() {
           <img
             src={site.logoImage}
             alt={`${site.brandName}${site.brandNameAccent} logo`}
-            className="h-11 w-auto"
+            className="h-16 w-auto"
           />
-          <div className="leading-tight">
+          {/* <div className="leading-tight">
             <p className="font-extrabold text-brand-blue text-lg tracking-tight">
               {site.brandName} <span className="text-brand-orange">{site.brandNameAccent}</span>
             </p>
             <p className="text-[10px] uppercase tracking-wide text-gray-500">
               {site.brandTagline}
             </p>
-          </div>
+          </div> */}
         </a>
 
         {/* Desktop nav */}

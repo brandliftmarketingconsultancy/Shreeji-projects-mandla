@@ -163,7 +163,7 @@ export const footerReadMore = [
   // { label: 'Blogs', href: '/blogs' },
   // { label: 'Wiremesh', href: '/products/wire-mesh' },
   // { label: 'Jointing Mortar', href: '/products/jointing-mortar' },
-  { label: 'Manufacturing Plants', href: '/manufacturing-plants' },
+  // { label: 'Manufacturing Plants', href: '/manufacturing-plants' },
   { label: 'Manufacturing Process', href: '/manufacturing-process' },
 ]
 

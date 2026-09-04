@@ -9,7 +9,7 @@ export default function CoverHero() {
         <img
           src={coverHero.image}
           alt={coverHero.imageAlt}
-          className="w-full h-full object-cover"
+          className="absolute inset-0 w-full h-full object-cover object-[100%_center] lg:object-center"
         />
       </div>
 

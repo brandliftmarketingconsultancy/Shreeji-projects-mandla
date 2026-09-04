@@ -14,10 +14,10 @@ export default function Hero() {
   return (
     <section className="relative bg-brand-dark overflow-hidden">
       <img
-        src={hero.image}
-        alt={hero.imageAlt}
-        className="absolute inset-0 w-full h-full object-cover"
-      />
+  src={hero.image}
+  alt={hero.imageAlt}
+  className="absolute inset-0 w-full h-full object-cover object-[80%_center] lg:object-center"
+/>
       <div className="absolute inset-0 bg-gradient-to-r  via-brand-blue/70 to-brand-blue/20" />
 
       <Container className="relative py-24 sm:py-32 lg:py-40">

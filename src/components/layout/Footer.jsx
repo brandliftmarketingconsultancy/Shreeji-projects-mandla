@@ -52,16 +52,16 @@ export default function Footer() {
             <img
               src={site.footerlogoImage}
               alt={`${site.brandName}${site.brandNameAccent} logo`}
-              className="h-11 w-auto"
+              className="h-16 w-auto"
             />
-            <div className="leading-tight">
+            {/* <div className="leading-tight">
               <p className="font-extrabold text-white text-lg">
                 {site.brandName} <span className="text-brand-orange">{site.brandNameAccent}</span>
               </p>
               <p className="text-[10px] uppercase tracking-wide text-gray-400">
                 {site.brandTagline}
               </p>
-            </div>
+            </div> */}
           </div>
           <p className="text-gray-300 text-sm leading-relaxed mb-5">{site.footerTagline}</p>
           <div className="flex items-center gap-3">
