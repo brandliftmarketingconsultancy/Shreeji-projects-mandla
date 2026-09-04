@@ -1,6 +1,6 @@
 export const hero = {
   image: '/images/Shreeji_Hero_Banner.jpg',
-  imageAlt: 'Construction worker placing a Conecc AAC block',
+  imageAlt: 'Construction worker placing a Shreeji AAC block',
   titleLine1: 'High Quality Lightweight',
   titleHighlight: 'AAC Blocks',
   subtitle: 'We are the Largest Manufacturer of AAC Blocks in India.',
@@ -19,13 +19,13 @@ export const ribbedFace = {
   subtitle:
     'Provides Excellent Adhesion Of Mortar With The Blocks, And Makes Exceptionally Strong Joints Between Blocks. Make Stronger Walls With Our AAC Blocks!',
   image: '/images/Shreeji_Product_Detail_Row.jpg',
-  imageAlt: 'Conecc ribbed face AAC blocks, four sizes shown',
+  imageAlt: 'Shreeji ribbed face AAC blocks, four sizes shown',
   cta: 'Read More',
   ctaHref: '/products/aac-blocks',
 }
 
 export const featuresSection = {
-  eyebrow: 'Why Conecc',
+  eyebrow: 'Why Shreeji',
   title: 'Built For',
   titleHighlight: 'Every Advantage',
 }
@@ -38,7 +38,7 @@ export const productsSection = {
 export const whyChooseUs = {
   imageSide: 'right',
   image: '/images/Shreeji_Mason_Placing_Block.jpg',
-  imageAlt: 'Worker holding a Conecc AAC block inside a building under construction',
+  imageAlt: 'Worker holding a Shreeji AAC block inside a building under construction',
   badgeIcon: 'feather',
   badgeLabel: '3 Times Lighter Than Red Bricks',
   title: 'No More Worries Of Heavy-Weight. Build Higher - Renovate Higher',
@@ -56,12 +56,12 @@ export const whyChooseUs = {
 export const affordablePromo = {
   imageSide: 'left',
   image: '/images/shreeji-contractor-portrait.jpg',
-  imageAlt: 'Mason building a wall with Conecc AAC blocks in a rural site',
+  imageAlt: 'Mason building a wall with Shreeji AAC blocks in a rural site',
   badgeIcon: 'piggyBank',
   badgeLabel: 'Build Your Dream Home In Budget',
   title: 'Most Affordable Building Blocks',
   descriptionPrefix:
-    'CONECC AAC Blocks stand out as the most affordable choice, being 60% lighter than red bricks, with lightweight, larger size, and excellent properties contributing to lower construction costs – offering a winning combination of durability, energy efficiency, and cost-effectiveness. Delivering in ',
+    'Shreeji AAC Blocks stand out as the most affordable choice, being 60% lighter than red bricks, with lightweight, larger size, and excellent properties contributing to lower construction costs – offering a winning combination of durability, energy efficiency, and cost-effectiveness. Delivering in ',
   points: [
     { icon: 'zap', label: 'Energy Savings' },
     { icon: 'users', label: 'Savings On Labour Cost' },
@@ -75,19 +75,19 @@ export const weightComparison = {
   heavyWeight: '42KG',
   heavyLabel: 'Red Brick',
   lightWeight: '14KG',
-  lightLabel: 'Conecc Block',
-  lightBlockText: 'CONECC',
-  titlePrefix: 'CONECC Blocks Are ',
+  lightLabel: 'Shreeji Block',
+  lightBlockText: 'Shreeji',
+  titlePrefix: 'Shreeji Blocks Are ',
   titleHighlight: '60% Lighter',
   titleSuffix: ' Than Red Bricks, Offering Superior Strength And a Larger Size.',
   description:
-    'CONECC AAC Blocks are light and easy to work with common tools making construction onsite faster than ever.',
+    'Shreeji AAC Blocks are light and easy to work with common tools making construction onsite faster than ever.',
   cta: 'Get a free quote',
   ctaHref: '/contact',
 }
 
 export const footerBanner =
-  'Conecc AAC Blocks – Fast Delivery in Karnataka, Goa, Tamil Nadu, Maharashtra & Andhra Pradesh'
+  'Shreeji AAC Blocks – Fast Delivery in Karnataka, Goa, Tamil Nadu, Maharashtra & Andhra Pradesh'
 
 export const heroBadges = [
   { label: 'BIS Certified', icon: 'bis' },
@@ -100,19 +100,19 @@ export const features = [
     title: 'Lightweight',
     icon: 'feather',
     description:
-      'CONECC AAC Block is one-third lighter compared to traditional bricks, decreasing freight and construction costs.',
+      'Shreeji AAC Block is one-third lighter compared to traditional bricks, decreasing freight and construction costs.',
   },
   {
     title: 'Pest Resistant',
     icon: 'shield-ban',
     description:
-      'Since CONECC AAC Block does not contain organic material, they will be protected from pests and long-lasting in normal atmospheric conditions.',
+      'Since Shreeji AAC Block does not contain organic material, they will be protected from pests and long-lasting in normal atmospheric conditions.',
   },
   {
     title: 'Fire Resistant',
     icon: 'flame',
     description:
-      'As CONECC AAC Block are non-combustible; they make the perfect solution for fire safety.',
+      'As Shreeji AAC Block are non-combustible; they make the perfect solution for fire safety.',
   },
   {
     title: 'Moisture Resistant',
@@ -124,7 +124,7 @@ export const features = [
     title: 'Energy Savings',
     icon: 'zap',
     description:
-      'CONECC AAC Block has strong thermal insulation properties that keep the heat during winter and prevent hot air from getting in during summer resulting in high savings on heating and cooling.',
+      'Shreeji AAC Block has strong thermal insulation properties that keep the heat during winter and prevent hot air from getting in during summer resulting in high savings on heating and cooling.',
   },
 ]
 
@@ -173,7 +173,7 @@ export const footerReadMore = [
 
 export const contactHero = {
   image: 'https://coneccconcrete.com/wp-content/uploads/2026/01/Contact-Now-Image.webp',
-  imageAlt: 'Conecc support team ready to assist customers',
+  imageAlt: 'Shreeji support team ready to assist customers',
   title: 'Contact Us',
   subtitle: 'Welcome, Feel free to contact us anytime.',
 }
@@ -195,7 +195,7 @@ export const contactForm = {
 export const getInTouch = {
   title: 'Get in Touch',
   description:
-    'Reach out to CONECC Concrete Solutions for expert guidance and top-notch customer service. Whether you are in Karnataka or any of our served regions, our team at CONECC is ready to assist you.',
+    'Reach out to Shreeji Concrete Solutions for expert guidance and top-notch customer service. Whether you are in Karnataka or any of our served regions, our team at Shreeji is ready to assist you.',
 }
 
 export const callCard = {
@@ -206,14 +206,14 @@ export const callCard = {
 
 export const corporateOffice = {
   image: 'https://coneccconcrete.com/wp-content/uploads/2025/03/after-min.jpg',
-  imageAlt: 'Aerial view of the Conecc AAC block manufacturing plant',
+  imageAlt: 'Aerial view of the Shreeji AAC block manufacturing plant',
   heading: 'Corporate Office:',
 }
 
 export const contactMap = {
   embedSrc:
     'https://www.google.com/maps?q=Conecc+Concrete+Solutions+Pvt+Ltd,+Hospet,+Karnataka&output=embed',
-  title: 'Conecc Concrete Solutions location map',
+  title: 'Shreeji Concrete Solutions location map',
 }
 
 
@@ -226,8 +226,8 @@ export const contactMap = {
 export const aboutHero = {
   image:
     '/images/factory_enhanced.jpg', // TODO: replace with a dedicated About Us hero image
-  imageAlt: 'Conecc Concrete Solutions manufacturing plant',
-  eyebrow: 'About Conecc',
+  imageAlt: 'Shreeji Concrete Solutions manufacturing plant',
+  eyebrow: 'About Shreeji',
   title: 'Who We Are',
   subtitle:
     'Building India stronger, lighter and faster — one AAC block at a time.', // TODO: confirm tagline
@@ -237,13 +237,13 @@ export const whoWeAre = {
   eyebrow: 'Our Story',
   title: 'Who We Are',
   paragraphs: [
-    'TODO: Replace with Conecc\u2019s real founding story \u2014 year founded, founders\u2019 background, and what led to building India\u2019s largest AAC block manufacturing operation.',
-    'TODO: Add a paragraph on what Conecc has delivered so far \u2014 homes built, projects served, states covered \u2014 backed by real figures.',
-    'TODO: Add a paragraph on certifications (BIS, ISO 9001:2015, IGBC) and what sets Conecc apart from other manufacturers.',
+    'TODO: Replace with Shreeji\u2019s real founding story \u2014 year founded, founders\u2019 background, and what led to building India\u2019s largest AAC block manufacturing operation.',
+    'TODO: Add a paragraph on what Shreeji has delivered so far \u2014 homes built, projects served, states covered \u2014 backed by real figures.',
+    'TODO: Add a paragraph on certifications (BIS, ISO 9001:2015, IGBC) and what sets Shreeji apart from other manufacturers.',
   ],
   image:
     '/images/factory.jpg', // TODO: swap for a dedicated Who We Are photo if available
-  imageAlt: 'Conecc AAC block manufacturing plant',
+  imageAlt: 'Shreeji AAC block manufacturing plant',
   cta: 'Get in Touch',
   ctaHref: '/contact',
 }
@@ -257,17 +257,17 @@ export const aboutStats = [
 
 export const whyPartner = {
   eyebrow: 'Why Partner With Us',
-  title: 'Why Partner With Conecc?',
+  title: 'Why Partner With Shreeji?',
   points: [
     {
       icon: 'factory',
       text:
-        'TODO: Replace with Conecc\u2019s real production capacity and plant count, e.g. "With a production capacity of X million CBM per annum across Y strategic plants, we ensure an uninterrupted supply chain for projects of every size."',
+        'TODO: Replace with Shreeji\u2019s real production capacity and plant count, e.g. "With a production capacity of X million CBM per annum across Y strategic plants, we ensure an uninterrupted supply chain for projects of every size."',
     },
     {
       icon: 'leaf',
       text:
-        'Our AAC Blocks are non-toxic and eco-friendly. By choosing Conecc, you aren\u2019t just building structures \u2014 you\u2019re earning Green Building credits and contributing to a resilient, carbon-conscious world.',
+        'Our AAC Blocks are non-toxic and eco-friendly. By choosing Shreeji, you aren\u2019t just building structures \u2014 you\u2019re earning Green Building credits and contributing to a resilient, carbon-conscious world.',
     },
     {
       icon: 'zap',
@@ -277,7 +277,7 @@ export const whyPartner = {
     {
       icon: 'shield-check',
       text:
-        'TODO: Replace with real client/builder names Conecc supplies, if shareable. Our products undergo rigorous testing to ensure superior thermal insulation, fire resistance, and structural integrity.',
+        'TODO: Replace with real client/builder names Shreeji supplies, if shareable. Our products undergo rigorous testing to ensure superior thermal insulation, fire resistance, and structural integrity.',
     },
   ],
 }
@@ -285,7 +285,7 @@ export const whyPartner = {
 export const awards = {
   eyebrow: 'Recognition',
   title: 'Awards & Recognitions',
-  subtitle: "TODO: Replace with a one-line summary of Conecc's real achievements.",
+  subtitle: "TODO: Replace with a one-line summary of Shreeji's real achievements.",
   items: [
     {
       title: 'TODO: Award / Recognition Title',
