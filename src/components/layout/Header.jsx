@@ -13,9 +13,11 @@ export default function Header() {
       <Container className="flex items-center justify-between h-20">
         {/* Logo */}
         <a href="/" className="flex items-center gap-2 shrink-0">
-          <div className="w-11 h-11 rounded-lg bg-brand-blue flex items-center justify-center">
-            <span className="text-white font-black text-lg">{site.logoInitial}</span>
-          </div>
+          <img
+            src={site.logoImage}
+            alt={`${site.brandName}${site.brandNameAccent} logo`}
+            className="h-11 w-auto"
+          />
           <div className="leading-tight">
             <p className="font-extrabold text-brand-blue text-lg tracking-tight">
               {site.brandName} <span className="text-brand-orange">{site.brandNameAccent}</span>

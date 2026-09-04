@@ -6,12 +6,12 @@
 
 export const aacHero = {
   image:
-    '/images/Shreeji_Hero_Banner.jpg',
+    '/images/factory_final_4x.jpg',
   imageAlt: 'Conecc AAC Block',
   eyebrow: 'Our Product',
   title: 'CONECC AAC Blocks',
   subtitle:
-    "Karnataka's largest manufacturer of Autoclaved Aerated Concrete Blocks — lightweight, fire-resistant, and built for faster, stronger construction.",
+    "Mandla's largest manufacturer of Autoclaved Aerated Concrete Blocks — lightweight, fire-resistant, and built for faster, stronger construction.",
   primaryCta: 'Get Quote',
   primaryCtaHref: '/contact',
 }
@@ -19,7 +19,7 @@ export const aacHero = {
 export const whyConecc = {
   title: 'Why CONECC AAC Blocks?',
   paragraphs: [
-    'Conecc is the largest manufacturer of AAC Blocks in Karnataka, India. Autoclaved Aerated Concrete Blocks (AAC Blocks) are perfect for foundations, inner leaves of cavity walls, dwelling partitioning walls, plus internal walls, external walls, and firewalls in both load-bearing and non-load-bearing buildings. Fly-Ash building blocks are proven as being highly efficient for both house construction, commercial and industrial buildings as well.',
+    'Conecc is the largest manufacturer of AAC Blocks in Mandla, India. Autoclaved Aerated Concrete Blocks (AAC Blocks) are perfect for foundations, inner leaves of cavity walls, dwelling partitioning walls, plus internal walls, external walls, and firewalls in both load-bearing and non-load-bearing buildings. Fly-Ash building blocks are proven as being highly efficient for both house construction, commercial and industrial buildings as well.',
     "In addition to it's versatility and energy efficiency properties, Lightweight blocks are characterized by their ease of working and construction. It can easily be sawn even with a hand saw to meet the required AAC block size. This results in higher construction speed which may deliver cost savings. Notable savings can also be made in faster weatherproofing, lower scaffolding costs, and less on-site waste. In addition, when using the thin-bed joint application, you use up to 5 times less mortar. AAC block's weight is 60% lighter compared to traditional bricks and depending on the project design, savings of up to 30% in structural costs can be achieved, due to the reduction of dead load.",
   ],
   cards: [

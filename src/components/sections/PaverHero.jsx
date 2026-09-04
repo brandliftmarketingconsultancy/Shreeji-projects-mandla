@@ -35,8 +35,7 @@ export default function PaverHero() {
               href={paverHero.secondaryCtaHref}
               className="inline-flex items-center gap-2 text-white font-semibold text-sm sm:text-base hover:text-brand-orange transition-colors"
             >
-              <Calculator size={18} />
-              {paverHero.secondaryCta}
+              
             </a>
           </div>
         </div>

@@ -7,7 +7,7 @@
 
 export const coverHero = {
   image:
-    '/images/Shreeji_Hero_Banner.jpg', // TODO: replace with real Cover Blocks banner photo
+    '/images/Cover_Blocks_Hero_Banner.jpg', // TODO: replace with real Cover Blocks banner photo
   imageAlt: 'Conecc precast cover blocks placed on reinforcement bars',
   title: 'Cover Blocks',
   subtitle: 'Precast Spacers For Accurate, Durable RCC Reinforcement Cover.',
@@ -28,7 +28,7 @@ export const coverTypes = {
       description:
         'The most widely used design, with a central tie-wire hole. Ideal for slabs and walls where the block sits flat against the shuttering.',
       image:
-        '/images/Shreeji_Product_Detail_Row.jpg', // TODO: real photo
+        '/images/Cover_Blocks_Circular_Wheel_Type.jpg', // TODO: real photo
       imageAlt: 'Circular wheel-type cover block',
     },
     {
@@ -36,7 +36,7 @@ export const coverTypes = {
       description:
         'A simple cube-shaped spacer used where a higher load-bearing cover block is needed, such as footings and mat foundations.',
       image:
-        '/images/Shreeji_Product_Detail_Row.jpg', // TODO: real photo
+        '/images/Cover_Blocks_Cube_Block_Type.jpg', // TODO: real photo
       imageAlt: 'Cube-type cover block',
     },
     {
@@ -44,7 +44,7 @@ export const coverTypes = {
       description:
         'Flat rectangular plates used along beam sides and columns, providing consistent cover across a vertical shuttering face.',
       image:
-        '/images/Shreeji_Product_Detail_Row.jpg', // TODO: real photo
+        '/images/Cover_Blocks_Plate_Strip_Type.jpg', // TODO: real photo
       imageAlt: 'Plate-type cover block',
     },
   ],

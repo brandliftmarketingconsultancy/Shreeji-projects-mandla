@@ -1,6 +1,6 @@
 export const navLinks = [
   { label: 'Home', href: '/' },
-  { label: 'AAC Blocks', href: '/aac-blocks' },
+  
   {
     label: 'Products',
     // href: '/products',
@@ -30,17 +30,14 @@ export const navLinks = [
 ]
 
 export const contact = {
-  phone: '+91 9342xxxxxx',
-  phoneDisplay: '+91 9342xxxxxx',
-  email: 'support@conecc.info',
-  address:
-    'SHREEJI AAC BLOCKS Solutions Pvt Ltd - D No.360/1, 15th Ward, Near Old Ganesh Gas Godown, Bharathi Nagar, Amaravathi, Hospet - 583201, Dist - Vijayanagara, Karnataka',
+  phone: '+91 7067062323',
+  phoneDisplay: '+91 7067062323',
+  email: 'shreejiprojectsmandla@gmail.com',
+  address: 'Beside Axis Bank, Jabalpur Road, Mandla(M.P)- 481661',
+  factoryAddress: 'Gram Mugadara, Bamhni Banjar, Dist.Mandla (M.P)- 481661'
 }
 
 export const socialLinks = [
-  { label: 'Facebook', href: 'https://facebook.com', icon: 'facebook' },
-  { label: 'Twitter', href: 'https://x.com', icon: 'twitter' },
-  { label: 'Instagram', href: 'https://instagram.com', icon: 'instagram' },
-  { label: 'LinkedIn', href: 'https://linkedin.com', icon: 'linkedin' },
-  { label: 'YouTube', href: 'https://youtube.com', icon: 'youtube' },
+  { label: 'Facebook', href: 'https://www.facebook.com/profile.php?id=61591980950246', icon: 'facebook' },
+  { label: 'Instagram', href: 'https://www.instagram.com/shreejiprojectsmandla/', icon: 'instagram' },
 ]

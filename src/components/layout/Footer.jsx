@@ -49,9 +49,11 @@ export default function Footer() {
         {/* Brand col */}
         <div>
           <div className="flex items-center gap-2 mb-4">
-            <div className="w-11 h-11 rounded-lg bg-brand-orange flex items-center justify-center">
-              <span className="text-white font-black text-lg">{site.logoInitial}</span>
-            </div>
+            <img
+              src={site.footerlogoImage}
+              alt={`${site.brandName}${site.brandNameAccent} logo`}
+              className="h-11 w-auto"
+            />
             <div className="leading-tight">
               <p className="font-extrabold text-white text-lg">
                 {site.brandName} <span className="text-brand-orange">{site.brandNameAccent}</span>
@@ -113,6 +115,16 @@ export default function Footer() {
                 <p className="text-white font-semibold text-sm">{site.footerContactLabels.address}</p>
                 <p className="text-gray-300 text-sm leading-relaxed">{contact.address}</p>
               </div>
+              
+            </li>
+
+              <li className="flex items-start gap-3">
+              <MapPin size={18} className="text-brand-orange mt-0.5 shrink-0" />
+              <div>
+                <p className="text-white font-semibold text-sm">{site.footerContactLabels.factoryAddress}</p>
+                <p className="text-gray-300 text-sm leading-relaxed">{contact.factoryAddress}</p>
+              </div>
+              
             </li>
           </ul>
         </div>

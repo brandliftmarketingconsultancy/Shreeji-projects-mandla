@@ -130,11 +130,11 @@ export const features = [
 
 export const products = [
   { title: 'AAC Blocks', image: '/images/shreeji-engineer-holding-block.png', href: '/products/aac-blocks' },
-  { title: 'Jointing Mortar', image: 'https://coneccconcrete.com/wp-content/uploads/2026/06/Conecc-AAC-Block-Jointing-Mortar-Bag.webp', href: '/products/jointing-mortar' },
-  { title: 'Ready Mix Plaster', image: 'https://coneccconcrete.com/wp-content/uploads/2026/06/Conecc-Ready-Mix-Plaster-Bag.webp', href: '/products/ready-mix-plaster' },
-  { title: 'Precast Walls', image: 'https://coneccconcrete.com/wp-content/uploads/2026/03/3-1.jpg', href: '/products/precast-walls' },
-  { title: 'Chain-Link Fence', image: 'https://coneccconcrete.com/wp-content/uploads/2026/03/2-1.jpg', href: '/products/chain-link-fence' },
-  { title: 'Wire Mesh', image: 'https://coneccconcrete.com/wp-content/uploads/2026/03/Conecc-Wiremesh-Product.webp', href: '/products/wire-mesh' },
+  { title: 'Jointing Mortar', image: '/images/jointing-mortar.jpg',  },
+  { title: 'Ready Mix Plaster', image: '/images/Ready_Mix_Plaster.jpg',  },
+  { title: 'Precast Walls', image: '/images/Shreeji_Precast_Walls.jpg', },
+  { title: 'Chain-Link Fence', image: '/images/Shreeji_Chain-Link_Fence.jpg', },
+  { title: 'Wire Mesh', image: '/images/Shreeji_Wire_Mesh.jpg', },
 ]
 
 export const deliveryStates = [
@@ -160,9 +160,9 @@ export const footerQuickLinks = [
 ]
 
 export const footerReadMore = [
-  { label: 'Blogs', href: '/blogs' },
-  { label: 'Wiremesh', href: '/products/wire-mesh' },
-  { label: 'Jointing Mortar', href: '/products/jointing-mortar' },
+  // { label: 'Blogs', href: '/blogs' },
+  // { label: 'Wiremesh', href: '/products/wire-mesh' },
+  // { label: 'Jointing Mortar', href: '/products/jointing-mortar' },
   { label: 'Manufacturing Plants', href: '/manufacturing-plants' },
   { label: 'Manufacturing Process', href: '/manufacturing-process' },
 ]
@@ -225,7 +225,7 @@ export const contactMap = {
 
 export const aboutHero = {
   image:
-    '/images/Shreeji_Hero_Banner.jpg', // TODO: replace with a dedicated About Us hero image
+    '/images/factory_enhanced.jpg', // TODO: replace with a dedicated About Us hero image
   imageAlt: 'Conecc Concrete Solutions manufacturing plant',
   eyebrow: 'About Conecc',
   title: 'Who We Are',

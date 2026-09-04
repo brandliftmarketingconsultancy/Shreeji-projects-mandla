@@ -7,7 +7,7 @@
 
 export const fencingHero = {
   image:
-    '/images/Shreeji_Hero_Banner.jpg', // TODO: replace with real Fencing Pole banner photo
+    '/images/Fencing_Poles_Hero_Banner.jpg', // TODO: replace with real Fencing Pole banner photo
   imageAlt: 'Conecc RCC fencing poles installed along a boundary',
   title: 'Fencing Pole',
   subtitle: 'Strong, Weather-Resistant RCC Poles For Every Boundary.',
@@ -72,7 +72,7 @@ export const fencingUseCases = {
       description:
         'Used across farmland to fence crop fields, orchards, and grazing land, protecting against stray livestock and marking field boundaries that hold up through monsoons and heat alike.',
       image:
-        'https://5.imimg.com/data5/SELLER/Default/2024/1/379417825/LM/QS/YZ/47552239/white-cement-fence-pole-1000x1000.jpg', // TODO: real photo
+        '/images/Fencing_Poles_Agriculture.jpg', // TODO: real photo
       imageAlt: 'RCC fencing poles used around agricultural farmland',
     },
     {
@@ -80,7 +80,7 @@ export const fencingUseCases = {
       description:
         'Deployed around factories, warehouses, and construction sites to support security fencing — chosen for its ability to bear tension from chain-link mesh without warping or leaning over time.',
       image:
-        'https://5.imimg.com/data5/SELLER/Default/2024/1/379417825/LM/QS/YZ/47552239/white-cement-fence-pole-1000x1000.jpg', // TODO: real photo
+        '/images/Fencing_Poles_Industrial.jpg', // TODO: real photo
       imageAlt: 'RCC fencing poles around an industrial facility perimeter',
     },
   ],

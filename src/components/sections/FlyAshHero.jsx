@@ -35,8 +35,7 @@ export default function FlyAshHero() {
               href={flyAshHero.secondaryCtaHref}
               className="inline-flex items-center gap-2 text-white font-semibold text-sm sm:text-base hover:text-brand-orange transition-colors"
             >
-              <Calculator size={18} />
-              {flyAshHero.secondaryCta}
+              
             </a>
           </div>
         </div>
