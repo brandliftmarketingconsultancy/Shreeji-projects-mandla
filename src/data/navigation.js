@@ -1,6 +1,6 @@
 export const navLinks = [
   { label: 'Home', href: '/' },
-  
+
   {
     label: 'Products',
     // href: '/products',
@@ -8,8 +8,12 @@ export const navLinks = [
       { label: 'AAC Blocks', href: '/products/aac-blocks' },
       { label: 'Fly Ash Bricks', href: '/products/fly-ash-bricks' },
       { label: 'Paver Blocks', href: '/products/paver-blocks' },
-      { label: 'Fencing Pole', href: '/products/fencing-pole' },
+      { label: 'Fencing Poles', href: '/products/fencing-pole' },
       { label: 'Cover Blocks', href: '/products/cover-blocks' },
+      { label: 'Precast Walls (Coming Soon)', href: '/products/precast-walls' },
+      { label: 'AAC Jointing Mortar (Coming Soon)', href: '/products/aac-jointing-mortar' },
+      { label: 'Ready Mix Plaster (Coming Soon)', href: '/products/ready-mix-plaster' },
+      { label: 'Curve Stone (Coming Soon)', href: '/products/curve-stone' },
     ],
   },
   {

@@ -12,7 +12,29 @@ export const hero = {
     { label: 'ISO 9001:2015', icon: 'shield-check' },
     { label: 'IGBC', icon: 'droplet' },
   ],
+  approvedFor: {
+  label: 'Approved for:',
+  items: [
+    { name: 'MP BDC Bhopal', },
+    { name: 'MP PWD' },
+    { name: 'MP PIU' },
+    { name: 'MP Police Housing' },
+    { name: 'MP Housing' },
+  ],
+},
 }
+
+export const certifications = {
+  heading: 'Certifications & Approvals',
+  subheading: 'Registered, certified and approved for quality you can trust.',
+  items: [
+    { title: 'MSME Certificate', value: 'UDYAM-MP-0009756', icon: 'badge-check' },
+    { title: 'GST No.', value: '23ADXFS8358M1ZZ', icon: 'file-text' },
+    { title: 'ISO Certification', value: '9001:2015', icon: 'award' },
+    { title: 'ISI Certificate', value: 'IS 2185 Part 3 | CM/L 7400086310', icon: 'shield-check' },
+  ],
+}
+  
 
 export const ribbedFace = {
   title: 'Ribbed Face AAC Blocks',
@@ -127,6 +149,9 @@ export const features = [
       'Shreeji AAC Block has strong thermal insulation properties that keep the heat during winter and prevent hot air from getting in during summer resulting in high savings on heating and cooling.',
   },
 ]
+
+
+
 
 export const products = [
   { title: 'AAC Blocks', image: '/images/shreeji-engineer-holding-block.png', href: '/products/aac-blocks' },

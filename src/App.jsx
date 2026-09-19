@@ -14,6 +14,7 @@ import ProjectsGallery from './pages/ProjectsGallery.jsx'
 import TechnicalResources from './pages/TechnicalResources.jsx'
 import DealerInquiry from './pages/DealerInquiry.jsx'
 import { site } from './data/site.js'
+import ComingSoon from './pages/ComingSoon.jsx'
 
 export default function App() {
   // Keep <title> / meta description in sync with data/site.js so it stays the
@@ -44,6 +45,10 @@ export default function App() {
         {/* Add further pages (Blogs, Certifications) here,
             reusing the same section/ui components. */}
         <Route path="*" element={<Home />} />
+        <Route path="/products/precast-walls" element={<ComingSoon slug="precast-walls" />} />
+        <Route path="/products/aac-jointing-mortar" element={<ComingSoon slug="aac-jointing-mortar" />} />
+        <Route path="/products/ready-mix-plaster" element={<ComingSoon slug="ready-mix-plaster" />} />
+        <Route path="/products/curve-stone" element={<ComingSoon slug="curve-stone" />} />
       </Routes>
     </Layout>
   )

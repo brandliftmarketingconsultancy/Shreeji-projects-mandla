@@ -37,6 +37,22 @@ export default function Hero() {
             </Button>
           </div>
 
+          <div className="mt-4 border-l-4 border-brand-orange pl-4">
+  <p className="text-brand-orange font-extrabold uppercase tracking-wide text-lg sm:text-xl">
+    {hero.approvedFor.label}
+  </p>
+  <ul className="mt-2 flex flex-wrap gap-2">
+    {hero.approvedFor.items.map(({ name }) => (
+     <li
+  key={name}
+  className="rounded bg-white/15 backdrop-blur-sm border border-white/30 px-3 py-1.5 text-sm sm:text-base font-semibold text-white"
+>
+  {name}
+</li>
+    ))}
+  </ul>
+</div>
+
           <div className="flex items-center gap-4 mt-4">
             {hero.badges.map(({ icon, label }) => {
               const Icon = badgeIconMap[icon] ?? BadgeCheck
