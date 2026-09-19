@@ -2,46 +2,46 @@
 /*  Manufacturing page content                                        */
 /*  processSteps text is transcribed verbatim from real reference     */
 /*  screenshots. Everything else (photos, capacity, QC steps) is      */
-/*  placeholder — TODO markers show what needs Conecc's real data.    */
+/*  placeholder — TODO markers show what needs Shreeji's real data.    */
 /* ------------------------------------------------------------------ */
 
 export const manufacturingHero = {
   image:
     '/images/factory.jpg', // TODO: replace with real plant banner photo
-  imageAlt: 'Conecc AAC block manufacturing plant floor',
+  imageAlt: 'Shreeji AAC block manufacturing plant floor',
   eyebrow: 'Behind The Blocks',
   title: 'Our Manufacturing',
   subtitle:
-    'From raw material to finished block — see the plants, machinery, and process behind every Conecc product.',
+    'From raw material to finished block — see the plants, machinery, and process behind every Shreeji product.',
 }
 
 export const plantGallery = {
   title: 'Our Manufacturing Plants',
-  subtitle: 'A look inside where Conecc products are made.', // TODO: confirm real plant count/locations
+  subtitle: 'A look inside where Shreeji products are made.', // TODO: confirm real plant count/locations
   images: [
     {
       caption: 'Automated Batching Plant',
       image:
         '/images/factory-1.jpg', // TODO: real photo
-      imageAlt: 'Conecc automated batching plant',
+      imageAlt: 'Shreeji automated batching plant',
     },
     {
       caption: 'AAC Production Line',
       image:
         '/images/factory-3.jpg',
-      imageAlt: 'Conecc AAC block production line',
+      imageAlt: 'Shreeji AAC block production line',
     },
     {
       caption: 'Autoclave Chamber',
       image:
         '/images/factory-2.jpg', // TODO: real photo
-      imageAlt: 'Conecc autoclave chamber',
+      imageAlt: 'Shreeji autoclave chamber',
     },
     {
       caption: 'Finished Goods Yard',
       image:
         '/images/factory.jpg',
-      imageAlt: 'Conecc finished goods storage yard',
+      imageAlt: 'Shreeji finished goods storage yard',
     },
   ],
 }
@@ -77,7 +77,7 @@ export const machinery = {
 }
 
 /* Transcribed verbatim from the reference screenshots — this is
-   Conecc's real published manufacturing-process copy. */
+   Shreeji's real published manufacturing-process copy. */
 export const processSteps = [
   {
     title: 'Raw Material Preparation',

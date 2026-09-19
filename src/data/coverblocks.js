@@ -8,7 +8,7 @@
 export const coverHero = {
   image:
     '/images/Cover_Blocks_Hero_Banner.jpg', // TODO: replace with real Cover Blocks banner photo
-  imageAlt: 'Conecc precast cover blocks placed on reinforcement bars',
+  imageAlt: 'Shreeji precast cover blocks placed on reinforcement bars',
   title: 'Cover Blocks',
   subtitle: 'Precast Spacers For Accurate, Durable RCC Reinforcement Cover.',
   primaryCta: 'Get Quote!',
@@ -76,7 +76,7 @@ export const coverTechSpecs = {
 }
 
 export const coverFaq = {
-  title: 'Frequently Asked Questions – Conecc Cover Blocks',
+  title: 'Frequently Asked Questions – Shreeji Cover Blocks',
   tabs: [
     {
       label: 'Product Info',
@@ -87,9 +87,9 @@ export const coverFaq = {
             'Cover Blocks maintain the specified clear cover between reinforcement steel and formwork during concreting, ensuring rebar stays correctly positioned and protected from corrosion as per IS 456:2000.',
         },
         {
-          question: 'What types of Cover Blocks does Conecc manufacture?',
+          question: 'What types of Cover Blocks does Shreeji manufacture?',
           answer:
-            'Conecc manufactures Circular/Wheel Type, Cube/Block Type, and Plate/Strip Type cover blocks to suit slabs, walls, beams, columns, and footings.',
+            'Shreeji manufactures Circular/Wheel Type, Cube/Block Type, and Plate/Strip Type cover blocks to suit slabs, walls, beams, columns, and footings.',
         },
         {
           question: 'What sizes are available?', // TODO: confirm real range
@@ -128,7 +128,7 @@ export const coverFaq = {
 }
 
 export const coverCta = {
-  title: 'Ready To Order Conecc Cover Blocks?',
+  title: 'Ready To Order Shreeji Cover Blocks?',
   subtitle: 'Get a free quote from our team for your RCC project requirements.',
   cta: 'Get a Free Quote',
   ctaHref: '/contact',

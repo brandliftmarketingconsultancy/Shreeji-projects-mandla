@@ -9,11 +9,11 @@
 export const galleryHero = {
   image:
     '/images/Shreeji_Hero_Banner.jpg',
-  imageAlt: 'Conecc AAC blocks used on a construction site',
+  imageAlt: 'Shreeji AAC blocks used on a construction site',
   eyebrow: 'Our Work',
   title: 'Projects & Gallery',
   subtitle:
-    'A look at real sites built with Conecc AAC Blocks, Fly Ash Bricks, and Paver installations across residential and commercial projects.',
+    'A look at real sites built with Shreeji AAC Blocks, Fly Ash Bricks, and Paver installations across residential and commercial projects.',
 }
 
 export const projectCategories = [
@@ -50,7 +50,7 @@ export const projects = [
     location: 'Hubballi, Chhattisgarh', // TODO: confirm real project location
     image:
       '/images/shreeji-contractor-portrait.jpg',
-    imageAlt: 'Residential building built with Conecc AAC blocks',
+    imageAlt: 'Residential building built with Shreeji AAC blocks',
   },
   {
     id: 4,
@@ -59,7 +59,7 @@ export const projects = [
     location: 'Vijayanagara, Chhattisgarh', // TODO: confirm real project location
     image:
       '/images/Shreeji_Weight_Comparison.jpg', // TODO: real photo
-    imageAlt: 'Independent house built with Conecc AAC blocks',
+    imageAlt: 'Independent house built with Shreeji AAC blocks',
   },
   {
     id: 5,
@@ -67,7 +67,7 @@ export const projects = [
     category: 'commercial',
     location: 'Hospet, Chhattisgarh', // TODO: confirm real project location
     image: '/images/factory.jpg',
-    imageAlt: 'Commercial building constructed with Conecc AAC blocks',
+    imageAlt: 'Commercial building constructed with Shreeji AAC blocks',
   },
   // {
   //   id: 6,
@@ -107,7 +107,7 @@ export const galleryStats = [
 
 export const galleryCta = {
   title: 'Have A Project In Mind?',
-  subtitle: "Talk to our team and see how Conecc's products can fit your build.",
+  subtitle: "Talk to our team and see how Shreeji's products can fit your build.",
   cta: 'Get a Free Quote',
   ctaHref: '/contact',
 }

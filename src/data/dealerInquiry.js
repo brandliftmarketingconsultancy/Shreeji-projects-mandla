@@ -8,7 +8,7 @@ export const dealerHero = {
   image:'/images/Shreeji_Hero_Banner.jpg',
   eyebrow: 'Become A Dealer',
   title: 'Dealer Inquiry',
-  subtitle: 'Partner with Conecc — tell us about your business and monthly requirement.',
+  subtitle: 'Partner with Shreeji — tell us about your business and monthly requirement.',
 }
 
 export const dealerForm = {

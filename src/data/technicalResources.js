@@ -8,11 +8,11 @@
 export const resourcesHero = {
   image:
     '/images/factory.jpg',
-  imageAlt: 'Conecc AAC block manufacturing plant',
+  imageAlt: 'Shreeji AAC block manufacturing plant',
   eyebrow: 'Resource Library',
   title: 'Technical Resources',
   subtitle:
-    'Brochures, size charts, technical specifications, and installation guides for every Conecc product — all in one place.',
+    'Brochures, size charts, technical specifications, and installation guides for every Shreeji product — all in one place.',
 }
 
 export const resourceCategories = [
@@ -26,8 +26,8 @@ export const resourceCategories = [
 export const resources = [
   {
     id: 1,
-    title: 'Conecc Product Catalogue',
-    description: 'Full overview of the Conecc product range, applications, and benefits.',
+    title: 'Shreeji Product Catalogue',
+    description: 'Full overview of the Shreeji product range, applications, and benefits.',
     category: 'brochures',
     fileType: 'PDF',
     fileSize: '4.2 MB', // TODO: confirm real file size once uploaded
@@ -36,7 +36,7 @@ export const resources = [
   {
     id: 2,
     title: 'AAC Blocks Brochure',
-    description: 'Product overview, key benefits, and size range for Conecc AAC Blocks.',
+    description: 'Product overview, key benefits, and size range for Shreeji AAC Blocks.',
     category: 'brochures',
     fileType: 'PDF',
     fileSize: '2.1 MB', // TODO: confirm

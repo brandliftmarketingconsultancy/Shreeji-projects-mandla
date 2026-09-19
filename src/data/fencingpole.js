@@ -2,13 +2,13 @@
 /*  Fencing Pole product page content                                 */
 /*  General sizing/use-case info is accurate for RCC (precast         */
 /*  concrete) fencing poles used with chain-link and barbed-wire      */
-/*  fencing. TODO markers = needs Conecc's real sizes and photos.     */
+/*  fencing. TODO markers = needs Shreeji's real sizes and photos.     */
 /* ------------------------------------------------------------------ */
 
 export const fencingHero = {
   image:
     '/images/Fencing_Poles_Hero_Banner.jpg', // TODO: replace with real Fencing Pole banner photo
-  imageAlt: 'Conecc RCC fencing poles installed along a boundary',
+  imageAlt: 'Shreeji RCC fencing poles installed along a boundary',
   title: 'Fencing Pole',
   subtitle: 'Strong, Weather-Resistant RCC Poles For Every Boundary.',
   primaryCta: 'Get Quote!',
@@ -28,7 +28,7 @@ export const fencingSizes = {
     { label: '7 ft', diameter: '75mm base', barHeight: 155 },
     { label: '8 ft', diameter: '90mm base', barHeight: 180 },
     { label: '10 ft', diameter: '100mm base', barHeight: 220 },
-  ], // TODO: confirm Conecc's actual sizes/diameters
+  ], // TODO: confirm Shreeji's actual sizes/diameters
 }
 
 export const fencingApplicationsList = {
@@ -64,7 +64,7 @@ export const fencingApplicationsList = {
 export const fencingUseCases = {
   title: 'Agricultural & Industrial Use Cases',
   paragraphs: [
-    'Conecc RCC Fencing Poles are precast for consistent strength and dimensional accuracy, then cured to resist cracking, rot, and termite damage — advantages that wooden posts can\u2019t match over years of outdoor exposure.',
+    'Shreeji RCC Fencing Poles are precast for consistent strength and dimensional accuracy, then cured to resist cracking, rot, and termite damage — advantages that wooden posts can\u2019t match over years of outdoor exposure.',
   ],
   cards: [
     {
@@ -87,7 +87,7 @@ export const fencingUseCases = {
 }
 
 export const fencingFaq = {
-  title: 'Frequently Asked Questions – Conecc Fencing Pole',
+  title: 'Frequently Asked Questions – Shreeji Fencing Pole',
   tabs: [
     {
       label: 'Product Info',
@@ -95,7 +95,7 @@ export const fencingFaq = {
         {
           question: 'What are Fencing Poles made of?',
           answer:
-            'Conecc Fencing Poles are precast using reinforced cement concrete (RCC), cured for high strength and long-term durability against weather and pests.',
+            'Shreeji Fencing Poles are precast using reinforced cement concrete (RCC), cured for high strength and long-term durability against weather and pests.',
         },
         {
           question: 'What sizes are available?', // TODO: confirm real range
@@ -139,7 +139,7 @@ export const fencingFaq = {
 }
 
 export const fencingCta = {
-  title: 'Ready To Fence Your Site With Conecc?',
+  title: 'Ready To Fence Your Site With Shreeji?',
   subtitle: 'Get a free quote from our team for your boundary or perimeter project.',
   cta: 'Get a Free Quote',
   ctaHref: '/contact',

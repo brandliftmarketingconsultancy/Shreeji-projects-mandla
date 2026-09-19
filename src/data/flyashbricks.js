@@ -121,7 +121,7 @@ export const flyAshComparison = {
 }
 
 export const flyAshFaq = {
-  title: 'Frequently Asked Questions – Conecc Fly Ash Bricks',
+  title: 'Frequently Asked Questions – Shreeji Fly Ash Bricks',
   tabs: [
     {
       label: 'Product Info',
@@ -137,9 +137,9 @@ export const flyAshFaq = {
             'Fly Ash Bricks generally offer higher compressive strength, more uniform dimensions, lower water absorption, and a smaller environmental footprint compared to traditional red clay bricks.',
         },
         {
-          question: 'What sizes are available?', // TODO: confirm Conecc's actual size range
+          question: 'What sizes are available?', // TODO: confirm Shreeji's actual size range
           answer:
-            'Conecc Fly Ash Bricks are available in standard sizes — confirm exact dimensions with our sales team for your project requirements.',
+            'Shreeji Fly Ash Bricks are available in standard sizes — confirm exact dimensions with our sales team for your project requirements.',
         },
         {
           question: 'Are Fly Ash Bricks eco-friendly?',
@@ -173,7 +173,7 @@ export const flyAshFaq = {
 }
 
 export const flyAshCta = {
-  title: 'Ready To Build With Conecc Fly Ash Bricks?',
+  title: 'Ready To Build With Shreeji Fly Ash Bricks?',
   subtitle: 'Get a free quote from our team and find out how much you can save.',
   cta: 'Get a Free Quote',
   ctaHref: '/contact',

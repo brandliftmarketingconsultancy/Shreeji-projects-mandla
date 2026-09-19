@@ -1,14 +1,14 @@
 /* ------------------------------------------------------------------ */
 /*  Paver Blocks product page content                                 */
 /*  General info is accurate industry-standard content for interlock- */
-/*  ing concrete pavers. TODO markers = needs Conecc's real design    */
+/*  ing concrete pavers. TODO markers = needs Shreeji's real design    */
 /*  names, color options, and product photography before publishing.  */
 /* ------------------------------------------------------------------ */
 
 export const paverHero = {
   image:
     '/images/Paver_Blocks_Hero_Banner.jpg', // TODO: replace with real Paver Blocks banner photo
-  imageAlt: 'Conecc interlocking paver blocks laid on a driveway',
+  imageAlt: 'Shreeji interlocking paver blocks laid on a driveway',
   title: 'Paver Blocks',
   subtitle: 'Durable, Decorative Interlocking Pavers For Every Space.',
   primaryCta: 'Get Quote!',
@@ -20,7 +20,7 @@ export const paverHero = {
 export const paverApplications = {
   title: 'Built For Every Space',
   paragraphs: [
-    'Conecc Paver Blocks are precision-molded interlocking concrete units designed to withstand heavy vehicular and pedestrian traffic while adding a decorative finish to any surface. Their interlocking design distributes load evenly, resists cracking, and allows for easy repair — a damaged paver can be lifted and replaced without disturbing the surrounding surface.',
+    'Shreeji Paver Blocks are precision-molded interlocking concrete units designed to withstand heavy vehicular and pedestrian traffic while adding a decorative finish to any surface. Their interlocking design distributes load evenly, resists cracking, and allows for easy repair — a damaged paver can be lifted and replaced without disturbing the surrounding surface.',
     'Available in a range of shapes, thicknesses, and colors, Paver Blocks work equally well for high-traffic commercial spaces and detailed residential landscaping, giving you both durability and design flexibility in one product.',
   ],
   cards: [
@@ -44,7 +44,7 @@ export const paverApplications = {
 }
 
 /* Color swatches are rendered from these hex values — update to match
-   Conecc's actual available colors before publishing. */
+   Shreeji's actual available colors before publishing. */
 export const paverColors = [
   { name: 'Grey', hex: '#9CA3AF' },
   { name: 'Red', hex: '#B91C1C' },
@@ -56,7 +56,7 @@ export const paverColors = [
 export const paverGallery = {
   title: 'Designs & Colors',
   subtitle:
-    'Choose from multiple interlocking patterns and finishes to match your space.', // TODO: confirm Conecc's real design range
+    'Choose from multiple interlocking patterns and finishes to match your space.', // TODO: confirm Shreeji's real design range
   designs: [
     {
       name: 'I-Shape Interlock', // TODO: confirm real design name
@@ -90,7 +90,7 @@ export const paverGallery = {
 }
 
 export const paverFaq = {
-  title: 'Frequently Asked Questions – Conecc Paver Blocks',
+  title: 'Frequently Asked Questions – Shreeji Paver Blocks',
   tabs: [
     {
       label: 'Product Info',
@@ -103,7 +103,7 @@ export const paverFaq = {
         {
           question: 'What designs and colors are available?', // TODO: confirm real range
           answer:
-            'Conecc Paver Blocks are available in multiple interlocking patterns and color options — get in touch with our team for the current catalogue and swatches.',
+            'Shreeji Paver Blocks are available in multiple interlocking patterns and color options — get in touch with our team for the current catalogue and swatches.',
         },
         {
           question: 'Can Paver Blocks be used for both commercial and residential projects?',
@@ -142,7 +142,7 @@ export const paverFaq = {
 }
 
 export const paverCta = {
-  title: 'Ready To Pave With Conecc?',
+  title: 'Ready To Pave With Shreeji?',
   subtitle: 'Get a free quote from our team and explore our design catalogue.',
   cta: 'Get a Free Quote',
   ctaHref: '/contact',

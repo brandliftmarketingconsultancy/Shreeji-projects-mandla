@@ -7,9 +7,9 @@
 export const aacHero = {
   image:
     '/images/factory_final_4x.jpg',
-  imageAlt: 'Conecc AAC Block',
+  imageAlt: 'Shreeji AAC Block',
   eyebrow: 'Our Product',
-  title: 'CONECC AAC Blocks',
+  title: 'Shreeji AAC Blocks',
   subtitle:
     "Mandla's largest manufacturer of Autoclaved Aerated Concrete Blocks — lightweight, fire-resistant, and built for faster, stronger construction.",
   primaryCta: 'Get Quote',
@@ -17,9 +17,9 @@ export const aacHero = {
 }
 
 export const whyConecc = {
-  title: 'Why CONECC AAC Blocks?',
+  title: 'Why Shreeji AAC Blocks?',
   paragraphs: [
-    'Conecc is the largest manufacturer of AAC Blocks in Mandla, India. Autoclaved Aerated Concrete Blocks (AAC Blocks) are perfect for foundations, inner leaves of cavity walls, dwelling partitioning walls, plus internal walls, external walls, and firewalls in both load-bearing and non-load-bearing buildings. Fly-Ash building blocks are proven as being highly efficient for both house construction, commercial and industrial buildings as well.',
+    'Shreeji is the largest manufacturer of AAC Blocks in Mandla, India. Autoclaved Aerated Concrete Blocks (AAC Blocks) are perfect for foundations, inner leaves of cavity walls, dwelling partitioning walls, plus internal walls, external walls, and firewalls in both load-bearing and non-load-bearing buildings. Fly-Ash building blocks are proven as being highly efficient for both house construction, commercial and industrial buildings as well.',
     "In addition to it's versatility and energy efficiency properties, Lightweight blocks are characterized by their ease of working and construction. It can easily be sawn even with a hand saw to meet the required AAC block size. This results in higher construction speed which may deliver cost savings. Notable savings can also be made in faster weatherproofing, lower scaffolding costs, and less on-site waste. In addition, when using the thin-bed joint application, you use up to 5 times less mortar. AAC block's weight is 60% lighter compared to traditional bricks and depending on the project design, savings of up to 30% in structural costs can be achieved, due to the reduction of dead load.",
   ],
   cards: [
@@ -28,21 +28,21 @@ export const whyConecc = {
       description:
         'With our precision manufacturing, stringent quality control, and the use of top-notch raw materials, ensuring our aac blocks have consistent durability and performance in diverse construction applications.',
       image: '/images/Shreeji_Weight_Comparison.jpg', // TODO: replace with real 14kg vs 42kg scale comparison photo
-      imageAlt: 'Conecc AAC block weighed against a red brick stack',
+      imageAlt: 'Shreeji AAC block weighed against a red brick stack',
     },
     {
       title: 'Different Sizes',
       description:
-        'Conecc AAC Blocks are available in multiple sizes, typically ranging from 75mm, 100mm, 125mm, 150mm, 200mm, 230mm, 250mm, and 300mm thickness, with standard lengths of 600mm and heights of 200mm.',
+        'Shreeji AAC Blocks are available in multiple sizes, typically ranging from 75mm, 100mm, 125mm, 150mm, 200mm, 230mm, 250mm, and 300mm thickness, with standard lengths of 600mm and heights of 200mm.',
       image: '/images/Shreeji_Mason_Placing_Block.jpg',
-      imageAlt: 'Conecc AAC blocks in different sizes with a hard hat',
+      imageAlt: 'Shreeji AAC blocks in different sizes with a hard hat',
     },
     {
       title: 'Ribbed Face',
       description:
-        'CONECC AAC Blocks comes with a unique ribbed finish on the face. It helps in better bonding of plaster with the blocks. Due to the ribbed face only, you can directly apply wall putty or Plaster of Paris without plastering.',
+        'Shreeji AAC Blocks comes with a unique ribbed finish on the face. It helps in better bonding of plaster with the blocks. Due to the ribbed face only, you can directly apply wall putty or Plaster of Paris without plastering.',
       image: '/images/Shreeji_Product_Detail_Row.jpg',
-      imageAlt: 'Conecc ribbed face AAC block under a magnifying glass',
+      imageAlt: 'Shreeji ribbed face AAC block under a magnifying glass',
     },
   ],
 }
@@ -107,7 +107,7 @@ export const techSpecs = {
 
 export const comparison = {
   title: 'AAC Block Vs Concrete Block Vs Red Brick',
-  columns: ['Parameters', 'CONECC AAC Blocks', 'Concrete Block', 'Red Clay Brick'],
+  columns: ['Parameters', 'Shreeji AAC Blocks', 'Concrete Block', 'Red Clay Brick'],
   rows: [
     { parameter: 'Fire Rating (150 mm)', aac: '4–7 Hours', concrete: '3 Hours', brick: '2 Hours' },
     { parameter: 'Eligible for Green Points (IGBC)', aac: 'Yes', concrete: 'Depends on product', brick: 'No' },
@@ -125,13 +125,13 @@ export const comparison = {
 }
 
 export const aacFaq = {
-  title: 'Frequently Asked Questions – Conecc AAC Blocks',
+  title: 'Frequently Asked Questions – Shreeji AAC Blocks',
   tabs: [
     {
       label: 'Product Info',
       questions: [
         {
-          question: 'How are Conecc AAC Blocks manufactured?',
+          question: 'How are Shreeji AAC Blocks manufactured?',
           answer:
             'They are manufactured by mixing raw materials like fly ash, cement, gypsum, lime, water, and a small quantity of aluminium powder, allowing them to aerate and rise, and then curing them in autoclaves under high pressure and temperature for strength and stability.',
         },
@@ -141,13 +141,13 @@ export const aacFaq = {
             'AAC (Autoclaved Aerated Concrete) Blocks are lightweight, precast building blocks made from fly ash, cement, lime, gypsum and an aerating agent, cured under high-pressure steam to create a strong, insulating, cellular structure.',
         },
         {
-          question: 'What sizes are available in Conecc AAC Blocks?',
+          question: 'What sizes are available in Shreeji AAC Blocks?',
           answer:
-            'Conecc AAC Blocks are available in thicknesses ranging from 75mm to 300mm, with standard lengths of 600mm and heights of 200mm.',
+            'Shreeji AAC Blocks are available in thicknesses ranging from 75mm to 300mm, with standard lengths of 600mm and heights of 200mm.',
         },
         {
-          question: 'What is the compressive strength of Conecc AAC Blocks?',
-          answer: 'Conecc AAC Blocks offer a compressive strength of 4 N/mm².',
+          question: 'What is the compressive strength of Shreeji AAC Blocks?',
+          answer: 'Shreeji AAC Blocks offer a compressive strength of 4 N/mm².',
         },
       ],
     },
@@ -194,7 +194,7 @@ export const aacFaq = {
 }
 
 export const aacCta = {
-  title: 'Ready To Build With CONECC AAC Blocks?',
+  title: 'Ready To Build With Shreeji AAC Blocks?',
   subtitle: 'Get a free quote from our team and find out how much you can save.',
   cta: 'Get a Free Quote',
   ctaHref: '/contact',
