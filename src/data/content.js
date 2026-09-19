@@ -109,7 +109,7 @@ export const weightComparison = {
 }
 
 export const footerBanner =
-  'Shreeji AAC Blocks – Fast Delivery in Karnataka, Goa, Tamil Nadu, Maharashtra & Andhra Pradesh'
+  'Shreeji AAC Blocks – Fast Delivery in Madhya Pradesh and Chhattisgarh'
 
 export const heroBadges = [
   { label: 'BIS Certified', icon: 'bis' },
@@ -163,17 +163,8 @@ export const products = [
 ]
 
 export const deliveryStates = [
-  'Karnataka',
-  'Tamil Nadu',
-  'Andhra Pradesh',
-  'Goa',
-  'Kerala',
-  'Rajasthan',
-  'Haryana',
-  'Delhi',
-  'Uttar Pradesh',
-  'Maharashtra',
-  'Telangana',
+  'Madhya Pradesh',
+  'Chhattisgarh',
 ]
 
 export const footerQuickLinks = [
@@ -220,7 +211,7 @@ export const contactForm = {
 export const getInTouch = {
   title: 'Get in Touch',
   description:
-    'Reach out to Shreeji Concrete Solutions for expert guidance and top-notch customer service. Whether you are in Karnataka or any of our served regions, our team at Shreeji is ready to assist you.',
+    'Reach out to Shreeji Concrete Solutions for expert guidance and top-notch customer service. Whether you are in Madhya Pradesh or any of our served regions, our team at Shreeji is ready to assist you.',
 }
 
 export const callCard = {

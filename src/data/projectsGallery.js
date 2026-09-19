@@ -29,7 +29,7 @@ export const projects = [
     id: 1,
     title: 'AAC Block Wall Construction',
     category: 'aac',
-    location: 'Hospet, Karnataka', // TODO: confirm real project location
+    location: 'Raipur, Chhattisgarh', // TODO: confirm real project location
     image:
       '/images/factory-3.jpg',
     imageAlt: 'AAC block wall under construction',
@@ -38,7 +38,7 @@ export const projects = [
     id: 2,
     title: 'Ribbed Face AAC Installation',
     category: 'aac',
-    location: 'Bengaluru, Karnataka', // TODO: confirm real project location
+    location: 'Balaghat, Madhya Pradesh', // TODO: confirm real project location
     image:
       '/images/Shreeji_Product_Detail_Row.jpg',
     imageAlt: 'Ribbed face AAC blocks installed on a wall',
@@ -47,7 +47,7 @@ export const projects = [
     id: 3,
     title: 'Residential Villa Build',
     category: 'residential',
-    location: 'Hubballi, Karnataka', // TODO: confirm real project location
+    location: 'Hubballi, Chhattisgarh', // TODO: confirm real project location
     image:
       '/images/shreeji-contractor-portrait.jpg',
     imageAlt: 'Residential building built with Conecc AAC blocks',
@@ -56,7 +56,7 @@ export const projects = [
     id: 4,
     title: 'Independent House Project',
     category: 'residential',
-    location: 'Vijayanagara, Karnataka', // TODO: confirm real project location
+    location: 'Vijayanagara, Chhattisgarh', // TODO: confirm real project location
     image:
       '/images/Shreeji_Weight_Comparison.jpg', // TODO: real photo
     imageAlt: 'Independent house built with Conecc AAC blocks',
@@ -65,7 +65,7 @@ export const projects = [
     id: 5,
     title: 'Corporate Office Complex',
     category: 'commercial',
-    location: 'Hospet, Karnataka', // TODO: confirm real project location
+    location: 'Hospet, Chhattisgarh', // TODO: confirm real project location
     image: '/images/factory.jpg',
     imageAlt: 'Commercial building constructed with Conecc AAC blocks',
   },
@@ -82,7 +82,7 @@ export const projects = [
   //   id: 7,
   //   title: 'Fly Ash Brick Boundary Wall',
   //   category: 'flyash-paver',
-  //   location: 'Amaravathi, Karnataka', // TODO: confirm real project location
+  //   location: 'Amaravathi, Chhattisgarh', // TODO: confirm real project location
   //   image:
   //     'https://coneccconcrete.com/wp-content/uploads/PLACEHOLDER-flyash-project.webp', // TODO: real photo
   //   imageAlt: 'Boundary wall built with fly ash bricks',
@@ -91,7 +91,7 @@ export const projects = [
   //   id: 8,
   //   title: 'Paver Block Driveway',
   //   category: 'flyash-paver',
-  //   location: 'Mangaluru, Karnataka', // TODO: confirm real project location
+  //   location: 'Mangaluru, Chhattisgarh', // TODO: confirm real project location
   //   image:
   //     'https://coneccconcrete.com/wp-content/uploads/PLACEHOLDER-paver-project.webp', // TODO: real photo
   //   imageAlt: 'Driveway paved with Conecc paver blocks',
