@@ -5,9 +5,9 @@ import { contact } from '../../data/navigation.js'
 import { hero } from '../../data/content.js'
 
 const badgeIconMap = {
-  droplet: '/public/images/isi-mark-certificate.webp',
-  'badge-check': '/public/images/ISI.png',
-  'shield-check': '/public/images/ISO.jpeg',
+  droplet: '/images/isi-mark-certificate.webp',
+  'badge-check': '/images/ISI.png',
+  'shield-check': '/images/ISO.jpeg',
 }
 
 export default function Hero() {
