@@ -8,9 +8,9 @@ export const hero = {
   primaryCtaHref: '/contact',
   secondaryCtaPrefix: 'Call: ',
   badges: [
+    { label: 'IGBC', icon: 'droplet' },
     { label: 'BIS', icon: 'badge-check' },
     { label: 'ISO 9001:2015', icon: 'shield-check' },
-    { label: 'IGBC', icon: 'droplet' },
   ],
   approvedFor: {
   label: 'Approved for:',

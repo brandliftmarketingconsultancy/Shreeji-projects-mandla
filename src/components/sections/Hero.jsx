@@ -5,19 +5,19 @@ import { contact } from '../../data/navigation.js'
 import { hero } from '../../data/content.js'
 
 const badgeIconMap = {
-  'badge-check': BadgeCheck,
-  'shield-check': ShieldCheck,
-  droplet: Droplet,
+  droplet: '/public/images/isi-mark-certificate.webp',
+  'badge-check': '/public/images/ISI.png',
+  'shield-check': '/public/images/ISO.jpeg',
 }
 
 export default function Hero() {
   return (
     <section className="relative bg-brand-dark overflow-hidden">
       <img
-  src={hero.image}
-  alt={hero.imageAlt}
-  className="absolute inset-0 w-full h-full object-cover object-[80%_center] lg:object-center"
-/>
+        src={hero.image}
+        alt={hero.imageAlt}
+        className="absolute inset-0 w-full h-full object-cover object-[80%_center] lg:object-center"
+      />
       <div className="absolute inset-0 bg-gradient-to-r  via-brand-blue/70 to-brand-blue/20" />
 
       <Container className="relative py-24 sm:py-32 lg:py-40">
@@ -38,31 +38,36 @@ export default function Hero() {
           </div>
 
           <div className="mt-4 border-l-4 border-brand-orange pl-4">
-  <p className="text-brand-orange font-extrabold uppercase tracking-wide text-lg sm:text-xl">
-    {hero.approvedFor.label}
-  </p>
-  <ul className="mt-2 flex flex-wrap gap-2">
-    {hero.approvedFor.items.map(({ name }) => (
-     <li
-  key={name}
-  className="rounded bg-white/15 backdrop-blur-sm border border-white/30 px-3 py-1.5 text-sm sm:text-base font-semibold text-white"
->
-  {name}
-</li>
-    ))}
-  </ul>
-</div>
+            <p className="text-brand-orange font-extrabold uppercase tracking-wide text-lg sm:text-xl">
+              {hero.approvedFor.label}
+            </p>
+            <ul className="mt-2 flex flex-wrap gap-2">
+              {hero.approvedFor.items.map(({ name }) => (
+                <li
+                  key={name}
+                  className="rounded bg-white/15 backdrop-blur-sm border border-white/30 px-3 py-1.5 text-sm sm:text-base font-semibold text-white"
+                >
+                  {name}
+                </li>
+              ))}
+            </ul>
+          </div>
 
           <div className="flex items-center gap-4 mt-4">
             {hero.badges.map(({ icon, label }) => {
-              const Icon = badgeIconMap[icon] ?? BadgeCheck
+              const iconSrc = badgeIconMap[icon]
+
               return (
                 <div
                   key={label}
-                  className="w-12 h-12 rounded-full bg-white flex items-center justify-center shadow-md"
+                  className="w-12 h-12 rounded-full bg-white flex items-center justify-center shadow-md overflow-hidden"
                   title={label}
                 >
-                  <Icon size={20} className="text-brand-blue" />
+                  <img
+                    src={iconSrc}
+                    alt={label}
+                    className="w-8 h-8 object-contain"
+                  />
                 </div>
               )
             })}
