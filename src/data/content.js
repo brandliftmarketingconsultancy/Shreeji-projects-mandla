@@ -155,10 +155,10 @@ export const features = [
 
 export const products = [
   { title: 'AAC Blocks', image: '/images/shreeji-engineer-holding-block.png', href: '/products/aac-blocks' },
-  { title: 'Fly Ash Bricks', image: '/public/images/Fly_Ash_Brick_Eco_Friendly.jpg', href: '/products/fly-ash-bricks'  },
-  { title: 'Paver Blocks', image: '/public/images/Paver_Blocks_Commercial.jpg', href: '/products/paver-blocks' },
-  { title: 'Fencing Poles', image: '/public/images/Fencing_Poles_Agriculture.jpg', href: '/products/fencing-poles' },
-  { title: 'Cover Blocks', image: '/public/images/Cover_Blocks_Cube_Block_Type.jpg', href: '/products/cover-blocks' },
+  { title: 'Fly Ash Bricks', image: '/images/Fly_Ash_Brick_Eco_Friendly.jpg', href: '/products/fly-ash-bricks'  },
+  { title: 'Paver Blocks', image: '/images/Paver_Blocks_Commercial.jpg', href: '/products/paver-blocks' },
+  { title: 'Fencing Poles', image: '/images/Fencing_Poles_Agriculture.jpg', href: '/products/fencing-poles' },
+  { title: 'Cover Blocks', image: '/images/Cover_Blocks_Cube_Block_Type.jpg', href: '/products/cover-blocks' },
 
 ]
 
