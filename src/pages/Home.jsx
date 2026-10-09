@@ -20,7 +20,7 @@ export default function Home() {
 
   <meta
     name="keywords"
-    content="aac blocks manufacturer, aac blocks manufacturer mandla, aac blocks manufacturer madhya pradesh, aac blocks mandla, aac blocks supplier mp, lightweight aac blocks mandla, aac blocks vs red bricks, fly ash bricks, paver blocks, cover blocks, rcc fencing pole, bricks manufacturer"
+    content="aac blocks manufacturer, aac blocks manufacturer mandla, aac blocks manufacturer madhya pradesh, aac blocks mandla"
   />
 
   <meta
