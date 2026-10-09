@@ -6,10 +6,28 @@ export const site = {
   logoImage: '/images/shreeji_navbar_logo_v3.png',
   footerlogoImage: '/images/shreeji_navbar_logo_white_text (1).png',
 
-  metaTitle: 'SHREEJI PROJECTS Concrete Solutions | High Quality Lightweight AAC Blocks',
+  metaTitle: 'AAC Blocks Manufacturer in Mandla, MP | Shreeji Projects',
 
   metaDescription:
-    "SHREEJI PROJECTS Concrete Solutions Pvt Ltd — India's largest manufacturer of lightweight AAC Blocks, Jointing Mortar, Ready Mix Plaster, Precast Walls, Chain-link Fence & Wire Mesh.",
+    "Leading AAC blocks manufacturer in Mandla, MP. ISI-certified lightweight AAC blocks, fly ash bricks, paver blocks and more. Call for a free quote.",
+
+      primaryKeywords: [
+    'aac blocks manufacturer',
+    'aac blocks manufacturer mandla',
+    'aac blocks manufacturer madhya pradesh',
+    'aac blocks mandla',
+  ],
+
+  secondaryKeywords: [
+    'aac blocks supplier mp',
+    'lightweight aac blocks mandla',
+    'aac blocks vs red bricks',
+    'fly ash bricks',
+    'paver blocks',
+    'cover blocks',
+    'rcc fencing pole',
+    'bricks manufacturer',
+  ],
 
   footerTagline: 'We Are The Largest Manufacturer Of AAC Blocks In India.',
 
