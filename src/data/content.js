@@ -1,9 +1,10 @@
 export const hero = {
   image: '/images/Shreeji_Hero_Banner.jpg',
   imageAlt: 'Construction worker placing a Shreeji AAC block',
-  titleLine1: 'High Quality Lightweight',
-  titleHighlight: 'AAC Blocks',
-  subtitle: 'We are the Largest Manufacturer of AAC Blocks in India.',
+  titleLine1: 'AAC Blocks Manufacturer in',
+  titleHighlight: 'Mandla, Madhya Pradesh',
+  subtitle: 'Shreeji Projects is a leading AAC blocks manufacturer in Mandla, Madhya Pradesh. We supply quality, ISI-certified lightweight AAC blocks to builders, contractors and government projects across Madhya Pradesh and Chhattisgarh.',
+
   primaryCta: 'Get Quote',
   primaryCtaHref: '/contact',
   secondaryCtaPrefix: 'Call: ',
@@ -13,15 +14,15 @@ export const hero = {
     { label: 'ISO 9001:2015', icon: 'shield-check' },
   ],
   approvedFor: {
-  label: 'Approved for:',
-  items: [
-    { name: 'MP BDC Bhopal', },
-    { name: 'MP PWD' },
-    { name: 'MP PIU' },
-    { name: 'MP Police Housing' },
-    { name: 'MP Housing' },
-  ],
-},
+    label: 'Approved for:',
+    items: [
+      { name: 'MP BDC Bhopal', },
+      { name: 'MP PWD' },
+      { name: 'MP PIU' },
+      { name: 'MP Police Housing' },
+      { name: 'MP Housing' },
+    ],
+  },
 }
 
 export const certifications = {
@@ -34,12 +35,12 @@ export const certifications = {
     { title: 'ISI Certificate', value: 'IS 2185 Part 3 | CM/L 7400086310', icon: 'shield-check' },
   ],
 }
-  
+
 
 export const ribbedFace = {
   title: 'Ribbed Face AAC Blocks',
   subtitle:
-    'Provides Excellent Adhesion Of Mortar With The Blocks, And Makes Exceptionally Strong Joints Between Blocks. Make Stronger Walls With Our AAC Blocks!',
+    'Every AAC block we make in Mandla has a ribbed face. The textured surface grips jointing mortar and plaster better, so the joints between blocks are stronger and the wall holds together as one piece. Build stronger walls with Shreeji AAC blocks.',
   image: '/images/Shreeji_Product_Detail_Row.jpg',
   imageAlt: 'Shreeji ribbed face AAC blocks, four sizes shown',
   cta: 'Read More',
@@ -63,9 +64,9 @@ export const whyChooseUs = {
   imageAlt: 'Worker holding a Shreeji AAC block inside a building under construction',
   badgeIcon: 'feather',
   badgeLabel: '3 Times Lighter Than Red Bricks',
-  title: 'No More Worries Of Heavy-Weight. Build Higher - Renovate Higher',
+  title: 'Build Higher with Lightweight AAC Blocks',
   description:
-    'Say goodbye to concerns about heavy weight in your constructions! Embrace the worry-free solution with our lightweight AAC blocks, ensuring your buildings stay sturdy without the burden of unnecessary weight. Being 60% Lighter than regular bricks, ensures proper weight distribution and strength when building higher.',
+    'Heavy walls add load to your structure and cost to your project. Shreeji lightweight AAC blocks are up to 60% lighter than regular bricks, so your building carries less dead weight and stays strong. The larger block size also means fewer joints and quicker laying, whether you are constructing a new building or renovating one in Mandla.',
   points: [
     { icon: 'truck', label: 'Fast Delivery' },
     { icon: 'users', label: 'Best Customer Support' },
@@ -78,12 +79,12 @@ export const whyChooseUs = {
 export const affordablePromo = {
   imageSide: 'left',
   image: '/images/shreeji-contractor-portrait.jpg',
-  imageAlt: 'Mason building a wall with Shreeji AAC blocks in a rural site',
+  imageAlt: 'Affordable AAC Blocks That Lower Your Construction Cost',
   badgeIcon: 'piggyBank',
   badgeLabel: 'Build Your Dream Home In Budget',
   title: 'Most Affordable Building Blocks',
   descriptionPrefix:
-    'Shreeji AAC Blocks stand out as the most affordable choice, being 60% lighter than red bricks, with lightweight, larger size, and excellent properties contributing to lower construction costs – offering a winning combination of durability, energy efficiency, and cost-effectiveness. Delivering in ',
+    'Shreeji AAC blocks reduce the total cost of building. Their light weight cuts freight and labour effort, larger blocks mean faster laying, and strong insulation lowers energy bills after you move in. Get durable, energy-efficient blocks at a fair price, delivered across Madhya Pradesh and Chhattisgarh.',
   points: [
     { icon: 'zap', label: 'Energy Savings' },
     { icon: 'users', label: 'Savings On Labour Cost' },
@@ -101,15 +102,15 @@ export const weightComparison = {
   lightBlockText: 'Shreeji',
   titlePrefix: 'Shreeji Blocks Are ',
   titleHighlight: '60% Lighter',
-  titleSuffix: ' Than Red Bricks, Offering Superior Strength And a Larger Size.',
+  titleSuffix: ' Than Red Bricks',
   description:
-    'Shreeji AAC Blocks are light and easy to work with common tools making construction onsite faster than ever.',
+    'Shreeji AAC blocks are larger than a red brick and light enough to handle and cut with common tools, so walls go up faster with less labour. This is why more builders now choose AAC blocks over red bricks.',
   cta: 'Get a free quote',
   ctaHref: '/contact',
 }
 
 export const footerBanner =
-  'Shreeji AAC Blocks – Fast Delivery in Madhya Pradesh and Chhattisgarh'
+  'Shreeji AAC Blocks: Fast Delivery from Mandla across Madhya Pradesh and Chhattisgarh'
 
 export const heroBadges = [
   { label: 'BIS Certified', icon: 'bis' },
@@ -122,31 +123,31 @@ export const features = [
     title: 'Lightweight',
     icon: 'feather',
     description:
-      'Shreeji AAC Block is one-third lighter compared to traditional bricks, decreasing freight and construction costs.',
+      'Shreeji AAC blocks are up to 60% lighter than red bricks. Lower weight means lower freight cost, less load on the structure and faster work on site.',
   },
   {
     title: 'Pest Resistant',
     icon: 'shield-ban',
     description:
-      'Since Shreeji AAC Block does not contain organic material, they will be protected from pests and long-lasting in normal atmospheric conditions.',
+      'AAC contains no organic material, so termites and other pests have nothing to feed on. Your walls stay protected for years under normal conditions.',
   },
   {
     title: 'Fire Resistant',
     icon: 'flame',
     description:
-      'As Shreeji AAC Block are non-combustible; they make the perfect solution for fire safety.',
+      'Shreeji AAC blocks are non-combustible, which makes them a dependable choice for fire-safe walls in homes, commercial buildings and public projects.',
   },
   {
     title: 'Moisture Resistant',
     icon: 'droplets',
     description:
-      'AAC blocks have a closed-cell structure, which means they contain tiny, closely packed air bubbles. These cells act as a barrier against the penetration of moisture.',
+      'AAC has a closed-cell structure made of tiny, closely packed air bubbles. These cells limit moisture from entering the wall and help it stay dry and durable.',
   },
   {
     title: 'Energy Savings',
     icon: 'zap',
     description:
-      'Shreeji AAC Block has strong thermal insulation properties that keep the heat during winter and prevent hot air from getting in during summer resulting in high savings on heating and cooling.',
+      'The cellular structure gives strong thermal insulation. It keeps heat out in the Madhya Pradesh summer and holds warmth during winter, so you spend less on cooling and heating.',
   },
 ]
 
@@ -155,7 +156,7 @@ export const features = [
 
 export const products = [
   { title: 'AAC Blocks', image: '/images/shreeji-engineer-holding-block.png', href: '/products/aac-blocks' },
-  { title: 'Fly Ash Bricks', image: '/images/Fly_Ash_Brick_Eco_Friendly.jpg', href: '/products/fly-ash-bricks'  },
+  { title: 'Fly Ash Bricks', image: '/images/Fly_Ash_Brick_Eco_Friendly.jpg', href: '/products/fly-ash-bricks' },
   { title: 'Paver Blocks', image: '/images/Paver_Blocks_Commercial.jpg', href: '/products/paver-blocks' },
   { title: 'Fencing Poles', image: '/images/Fencing_Poles_Agriculture.jpg', href: '/products/fencing-poles' },
   { title: 'Cover Blocks', image: '/images/Cover_Blocks_Cube_Block_Type.jpg', href: '/products/cover-blocks' },
