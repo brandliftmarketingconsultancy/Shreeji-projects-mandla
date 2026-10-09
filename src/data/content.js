@@ -49,13 +49,15 @@ export const ribbedFace = {
 
 export const featuresSection = {
   eyebrow: 'Why Shreeji',
-  title: 'Built For',
-  titleHighlight: 'Every Advantage',
+  title: 'Why Builders Choose',
+  titleHighlight: 'Shreeji AAC Blocks',
 }
 
 export const productsSection = {
   title: 'Our',
   titleHighlight: 'Products',
+  intro:
+    'Shreeji Projects manufactures AAC blocks, fly ash bricks, paver blocks, fencing poles and cover blocks for homes, commercial sites and infrastructure projects in Mandla and across Madhya Pradesh.',
 }
 
 export const whyChooseUs = {
@@ -69,9 +71,9 @@ export const whyChooseUs = {
     'Heavy walls add load to your structure and cost to your project. Shreeji lightweight AAC blocks are up to 60% lighter than regular bricks, so your building carries less dead weight and stays strong. The larger block size also means fewer joints and quicker laying, whether you are constructing a new building or renovating one in Mandla.',
   points: [
     { icon: 'truck', label: 'Fast Delivery' },
-    { icon: 'users', label: 'Best Customer Support' },
+    { icon: 'users', label: 'Responsive Customer Support' },
   ],
-  cta: 'Learn More',
+  cta: 'Learn About AAC Blocks',
   ctaHref: '/about',
   ctaVariant: 'outline',
 }
@@ -82,14 +84,14 @@ export const affordablePromo = {
   imageAlt: 'Affordable AAC Blocks That Lower Your Construction Cost',
   badgeIcon: 'piggyBank',
   badgeLabel: 'Build Your Dream Home In Budget',
-  title: 'Most Affordable Building Blocks',
+  title: 'Affordable AAC Blocks That Lower Your Construction Cost',
   descriptionPrefix:
     'Shreeji AAC blocks reduce the total cost of building. Their light weight cuts freight and labour effort, larger blocks mean faster laying, and strong insulation lowers energy bills after you move in. Get durable, energy-efficient blocks at a fair price, delivered across Madhya Pradesh and Chhattisgarh.',
   points: [
     { icon: 'zap', label: 'Energy Savings' },
     { icon: 'users', label: 'Savings On Labour Cost' },
   ],
-  cta: 'Know Pricing',
+  cta: 'Get AAC Block Price',
   ctaHref: '/contact',
   ctaVariant: 'outline',
 }
@@ -155,12 +157,46 @@ export const features = [
 
 
 export const products = [
-  { title: 'AAC Blocks', image: '/images/shreeji-engineer-holding-block.png', href: '/products/aac-blocks' },
-  { title: 'Fly Ash Bricks', image: '/images/Fly_Ash_Brick_Eco_Friendly.jpg', href: '/products/fly-ash-bricks' },
-  { title: 'Paver Blocks', image: '/images/Paver_Blocks_Commercial.jpg', href: '/products/paver-blocks' },
-  { title: 'Fencing Poles', image: '/images/Fencing_Poles_Agriculture.jpg', href: '/products/fencing-poles' },
-  { title: 'Cover Blocks', image: '/images/Cover_Blocks_Cube_Block_Type.jpg', href: '/products/cover-blocks' },
-
+  {
+    title: 'AAC Blocks',
+    image: '/images/shreeji-engineer-holding-block.png',
+    imageAlt: 'Shreeji AAC blocks stacked at the Mandla factory',
+    description:
+      'Lightweight, strong and energy-efficient blocks for walls in residential, commercial and government buildings.',
+    href: '/products/aac-blocks',
+  },
+  {
+    title: 'Fly Ash Bricks',
+    image: '/images/Fly_Ash_Brick_Eco_Friendly.jpg',
+    imageAlt: 'Fly ash bricks manufactured by Shreeji Projects in Mandla',
+    description:
+      'Eco-friendly, uniform bricks made with fly ash. A durable alternative to red clay bricks.',
+    href: '/products/fly-ash-bricks',
+  },
+  {
+    title: 'Paver Blocks',
+    image: '/images/Paver_Blocks_Commercial.jpg',
+    imageAlt: 'Interlocking paver blocks by Shreeji Projects',
+    description:
+      'Interlocking concrete paver blocks for driveways, roads, walkways and parking areas.',
+    href: '/products/paver-blocks',
+  },
+  {
+    title: 'Fencing Poles',
+    image: '/images/Fencing_Poles_Agriculture.jpg',
+    imageAlt: 'RCC fencing poles by Shreeji Projects',
+    description:
+      'RCC fencing poles for farms, plots and compound boundaries. Strong, rust-free and long lasting.',
+    href: '/products/fencing-poles',
+  },
+  {
+    title: 'Cover Blocks',
+    image: '/images/Cover_Blocks_Cube_Block_Type.jpg',
+    imageAlt: 'Concrete cover blocks by Shreeji Projects',
+    description:
+      'Concrete cover blocks that keep reinforcement bars at the right distance in slabs, columns and footings.',
+    href: '/products/cover-blocks',
+  },
 ]
 
 export const deliveryStates = [
