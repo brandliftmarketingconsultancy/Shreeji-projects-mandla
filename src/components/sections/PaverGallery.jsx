@@ -42,9 +42,14 @@ export default function PaverGallery() {
                 className="w-full h-40 object-cover"
               />
               <div className="p-5">
-                <h3 className="font-bold text-brand-blue text-sm sm:text-base mb-3">
+                <h3 className="font-bold text-brand-blue text-sm sm:text-base mb-2">
                   {design.name}
                 </h3>
+
+                <p className="text-sm text-gray-600 leading-relaxed mb-4">
+                  {design.description}
+                </p>
+
                 <div className="flex items-center gap-1.5">
                   {design.colorNames.map((name) => (
                     <span

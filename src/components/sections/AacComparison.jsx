@@ -8,9 +8,13 @@ export default function AacComparison() {
   return (
     <section className="py-16 sm:py-24 bg-gray-50">
       <Container>
-        <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-brand-blue text-center mb-10">
+        <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-brand-blue text-center mb-3">
           {comparison.title}
         </h2>
+
+        <p className="max-w-3xl mx-auto mb-10 text-sm sm:text-base text-gray-600 text-center leading-relaxed">
+          {comparison.description}
+        </p>
 
         {/* Table view — tablet & up */}
         <div className="hidden md:block overflow-x-auto rounded-xl2 shadow-card border border-gray-100">

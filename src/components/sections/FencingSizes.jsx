@@ -37,6 +37,48 @@ export default function FencingSizes() {
         </div>
         {/* ground line */}
         <div className="max-w-3xl mx-auto h-1 rounded-full bg-gray-100 mt-1" />
+
+        {/* Text table for SEO and accessibility */}
+        <div className="max-w-4xl mx-auto mt-12">
+          <div className="overflow-x-auto rounded-xl2 border border-gray-200 shadow-sm">
+            <table className="w-full min-w-[600px] border-collapse text-left">
+              <thead>
+                <tr className="bg-gray-50">
+                  <th className="px-5 py-4 text-sm font-bold text-brand-blue">
+                    Pole Length
+                  </th>
+                  <th className="px-5 py-4 text-sm font-bold text-brand-blue">
+                    Base
+                  </th>
+                  <th className="px-5 py-4 text-sm font-bold text-brand-blue">
+                    Best Suited For
+                  </th>
+                </tr>
+              </thead>
+
+              <tbody>
+                {fencingSizes.items.map((item) => (
+                  <tr
+                    key={item.label}
+                    className="border-t border-gray-200"
+                  >
+                    <td className="px-5 py-4 text-sm text-gray-700 font-medium">
+                      {item.label}
+                    </td>
+
+                    <td className="px-5 py-4 text-sm text-gray-600">
+                      {item.diameter.replace(' base', '')}
+                    </td>
+
+                    <td className="px-5 py-4 text-sm text-gray-600">
+                      {item.bestSuitedFor}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
       </Container>
     </section>
   )

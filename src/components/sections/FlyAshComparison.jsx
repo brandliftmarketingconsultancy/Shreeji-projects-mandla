@@ -11,6 +11,11 @@ export default function FlyAshComparison() {
         <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-brand-blue text-center mb-10">
           {flyAshComparison.title}
         </h2>
+        {flyAshComparison.intro && (
+          <p className="mx-auto mb-10 max-w-2xl text-center text-sm sm:text-base text-gray-600">
+            {flyAshComparison.intro}
+          </p>
+        )}
 
         {/* Table view — tablet & up */}
         <div className="hidden md:block overflow-x-auto rounded-xl2 shadow-card border border-gray-100">

@@ -1,3 +1,4 @@
+
 import { Factory, Leaf, Zap, ShieldCheck, Check } from 'lucide-react'
 import Container from '../ui/Container.jsx'
 import { whyPartner } from '../../data/content.js'
@@ -17,6 +18,7 @@ export default function WhyPartner() {
           <p className="text-brand-orange font-semibold text-sm uppercase tracking-wide mb-2">
             {whyPartner.eyebrow}
           </p>
+
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-brand-blue">
             {whyPartner.title}
           </h2>
@@ -25,21 +27,32 @@ export default function WhyPartner() {
         <div className="flex flex-col gap-5">
           {whyPartner.points.map((point, i) => {
             const Icon = iconMap[point.icon]
+
             return (
               <div
-                key={i}
+                key={point.title || i}
                 className="flex items-start gap-4 bg-white rounded-xl2 shadow-card p-5 sm:p-6"
               >
-                <div className="w-9 h-9 rounded-md bg-brand-orange flex items-center justify-center shrink-0">
+                <div
+                  className="w-9 h-9 rounded-md bg-brand-orange flex items-center justify-center shrink-0"
+                  aria-hidden="true"
+                >
                   {Icon ? (
-                    <Icon size={18} className="text-white" />
+                    <Icon size={18} className="text-white" aria-hidden="true" />
                   ) : (
-                    <Check size={18} className="text-white" />
+                    <Check size={18} className="text-white" aria-hidden="true" />
                   )}
                 </div>
-                <p className="text-gray-600 leading-relaxed text-sm sm:text-base">
-                  {point.text}
-                </p>
+
+                <div>
+                  <h3 className="font-bold text-brand-blue text-base sm:text-lg mb-2">
+                    {point.title}
+                  </h3>
+
+                  <p className="text-gray-600 leading-relaxed text-sm sm:text-base">
+                    {point.text}
+                  </p>
+                </div>
               </div>
             )
           })}

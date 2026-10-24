@@ -1,10 +1,11 @@
+
 import { useState } from 'react'
-import { MapPin } from 'lucide-react'
+import { FileImage } from 'lucide-react'
 import Container from '../ui/Container.jsx'
 import { projectCategories, projects } from '../../data/projectsGallery.js'
 
 const categoryLabel = Object.fromEntries(
-  projectCategories.map((c) => [c.id, c.label])
+  projectCategories.map((category) => [category.id, category.label])
 )
 
 export default function ProjectFilterGallery() {
@@ -13,63 +14,82 @@ export default function ProjectFilterGallery() {
   const filteredProjects =
     activeCategory === 'all'
       ? projects
-      : projects.filter((p) => p.category === activeCategory)
+      : projects.filter((project) => project.category === activeCategory)
 
   return (
-    <section className="py-16 sm:py-24 bg-white">
+    <section className="bg-white py-16 sm:py-24">
       <Container>
-        {/* Filter pills */}
-        <div className="flex flex-wrap items-center justify-center gap-2 mb-12">
-          {projectCategories.map((cat) => (
+        {/* Photo gallery filters */}
+        <div
+          className="mb-12 flex flex-wrap items-center justify-center gap-2"
+          aria-label="Filter gallery photos"
+        >
+          {projectCategories.map((category) => (
             <button
-              key={cat.id}
+              key={category.id}
               type="button"
-              onClick={() => setActiveCategory(cat.id)}
-              className={`px-4 sm:px-5 py-2.5 rounded-full text-sm font-semibold transition-colors ${
-                activeCategory === cat.id
+              onClick={() => setActiveCategory(category.id)}
+              aria-pressed={activeCategory === category.id}
+              className={`rounded-full px-4 py-2.5 text-sm font-semibold transition-colors sm:px-5 ${
+                activeCategory === category.id
                   ? 'bg-brand-orange text-white'
                   : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
               }`}
             >
-              {cat.label}
+              {category.label}
             </button>
           ))}
         </div>
 
-        {/* Project grid */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {filteredProjects.map((project) => (
-            <div
-              key={project.id}
-              className="group relative rounded-xl2 overflow-hidden shadow-card hover:shadow-card-hover transition-shadow duration-200 bg-white"
-            >
-              <div className="relative overflow-hidden">
-                <img
-                  src={project.image}
-                  alt={project.imageAlt}
-                  className="w-full h-56 object-cover transition-transform duration-500 group-hover:scale-105"
-                />
-                <span className="absolute top-3 left-3 rounded-full bg-brand-orange text-white text-[11px] font-bold uppercase tracking-wide px-3 py-1">
-                  {categoryLabel[project.category]}
-                </span>
-              </div>
-              <div className="p-5">
-                <h3 className="font-bold text-brand-blue text-base mb-1.5">
-                  {project.title}
-                </h3>
-                <p className="inline-flex items-center gap-1.5 text-gray-500 text-sm">
-                  <MapPin size={14} className="text-brand-orange shrink-0" />
-                  {project.location}
-                </p>
-              </div>
-            </div>
-          ))}
-        </div>
+        {/* Approved gallery photos */}
+        {filteredProjects.length > 0 ? (
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {filteredProjects.map((photo) => (
+              <article
+                key={photo.id}
+                className="group overflow-hidden rounded-xl2 bg-white shadow-card transition-shadow duration-200 hover:shadow-card-hover"
+              >
+                <div className="relative overflow-hidden">
+                  <img
+                    src={photo.image}
+                    alt={photo.imageAlt}
+                    loading="lazy"
+                    decoding="async"
+                    className="h-56 w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
 
-        {filteredProjects.length === 0 && (
-          <p className="text-center text-gray-400 text-sm py-12">
-            No projects found in this category yet.
-          </p>
+                  <span className="absolute left-3 top-3 rounded-full bg-brand-orange px-3 py-1 text-[11px] font-bold uppercase tracking-wide text-white">
+                    {categoryLabel[photo.category] || 'Gallery'}
+                  </span>
+                </div>
+
+                <div className="p-5">
+                  <h3 className="text-base font-bold text-brand-blue">
+                    {photo.title}
+                  </h3>
+
+                  {photo.description && (
+                    <p className="mt-2 text-sm leading-relaxed text-gray-600">
+                      {photo.description}
+                    </p>
+                  )}
+                </div>
+              </article>
+            ))}
+          </div>
+        ) : (
+          <div className="py-12 text-center">
+            <FileImage
+              size={36}
+              aria-hidden="true"
+              className="mx-auto mb-4 text-gray-300"
+            />
+
+            <p className="text-sm leading-6 text-gray-500">
+              No photos available in this category yet. Contact us to see
+              more of our work.
+            </p>
+          </div>
         )}
       </Container>
     </section>

@@ -1,45 +1,44 @@
-import { FileText, Calculator } from 'lucide-react'
-import Container from '../ui/Container.jsx'
-import { aacHero } from '../../data/aacblock.js'
 
-export default function AacHero() {
+import { ChevronRight } from 'lucide-react'
+import Container from '../ui/Container.jsx'
+import { aboutHero } from '../../data/content.js'
+
+export default function AboutHero() {
   return (
     <section className="relative overflow-hidden">
       <div className="absolute inset-0">
         <img
-          src={aacHero.image}
-          alt={aacHero.imageAlt}
+          src={aboutHero.image}
+          alt={aboutHero.imageAlt}
           className="w-full h-full object-cover"
+          fetchPriority="high"
         />
+        <div className="absolute inset-0 bg-gradient-to-r from-brand-blue-dark/90 via-brand-blue-dark/85 to-brand-blue-dark/60" />
       </div>
 
-      <Container className="relative min-h-[340px] sm:min-h-[400px] lg:min-h-[460px] flex items-center py-12">
-        <div className="max-w-2xl rounded-xl2 bg-black/50 p-6 sm:p-10">
-          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-white leading-tight mb-4">
-            {aacHero.title}
-          </h1>
-          <p className="text-white/90 text-base sm:text-lg font-semibold mb-8">
-            {aacHero.subtitle}
-          </p>
+      <Container className="relative py-20 sm:py-28">
+        <nav
+          aria-label="Breadcrumb"
+          className="flex items-center gap-1.5 text-sm text-white/70 mb-4"
+        >
+          <a href="/" className="hover:text-brand-orange transition-colors">
+            Home
+          </a>
+          <ChevronRight size={14} aria-hidden="true" />
+          <span className="text-white font-medium">About Us</span>
+        </nav>
 
-          <div className="flex flex-wrap items-center gap-x-8 gap-y-4">
-            <a
-              href={aacHero.primaryCtaHref}
-              className="inline-flex items-center gap-2 rounded-md bg-red-600 hover:bg-red-700 text-white px-6 py-3 text-sm sm:text-base font-semibold transition-colors"
-            >
-              <FileText size={18} />
-              {aacHero.primaryCta}
-            </a>
+        <p className="text-brand-orange font-semibold text-sm sm:text-base uppercase tracking-wide mb-2">
+          {aboutHero.eyebrow}
+        </p>
 
-            <a
-              href={aacHero.secondaryCtaHref}
-              className="inline-flex items-center gap-2 text-white font-semibold text-sm sm:text-base hover:text-brand-orange transition-colors"
-            >
-              {/* <Calculator size={18} /> */}
-              {aacHero.secondaryCta}
-            </a>
-          </div>
-        </div>
+        <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white max-w-2xl leading-tight">
+          {aboutHero.title}
+        </h1>
+
+        <p className="mt-4 text-white/85 text-base sm:text-lg max-w-xl">
+          {aboutHero.subtitle}
+        </p>
       </Container>
     </section>
   )

@@ -29,16 +29,35 @@ export default function ResourceLibrary() {
     <section className="py-16 sm:py-24 bg-white">
       <Container>
         {/* Search */}
+
+        {/* Resource library introduction */}
+        <div className="mb-8">
+          <h2 className="text-2xl font-bold text-brand-blue-dark md:text-3xl">
+            Download Brochures, Size Charts and Specification Sheets
+          </h2>
+          <p className="mt-3 leading-7 text-gray-600">
+            Find everything you need to plan and build with Shreeji products.
+            Download our product catalogue, AAC block size chart, technical
+            specification sheets and step-by-step installation guides for AAC
+            blocks, fly ash bricks, paver blocks, cover blocks and fencing poles.
+          </p>
+        </div>
+
+        {/* Search */}
         <div className="max-w-xl mx-auto mb-8 relative">
-          <Search size={18} className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400" />
+          <Search
+            size={18}
+            className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400"
+          />
           <input
             type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search resources..."
+            placeholder="Search brochures, size charts and guides"
             className="w-full rounded-full border border-gray-200 bg-gray-50 pl-11 pr-4 py-3 text-sm text-gray-700 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-brand-orange/40 focus:border-brand-orange"
           />
         </div>
+
 
         {/* Category filter pills */}
         <div className="flex flex-wrap items-center justify-center gap-2 mb-12">
@@ -47,11 +66,10 @@ export default function ResourceLibrary() {
               key={cat.id}
               type="button"
               onClick={() => setActiveCategory(cat.id)}
-              className={`px-4 sm:px-5 py-2.5 rounded-full text-sm font-semibold transition-colors ${
-                activeCategory === cat.id
+              className={`px-4 sm:px-5 py-2.5 rounded-full text-sm font-semibold transition-colors ${activeCategory === cat.id
                   ? 'bg-brand-orange text-white'
                   : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
-              }`}
+                }`}
             >
               {cat.label}
             </button>
@@ -96,11 +114,65 @@ export default function ResourceLibrary() {
           })}
         </div>
 
+
         {filteredResources.length === 0 && (
           <p className="text-center text-gray-400 text-sm py-12">
-            No resources match your search.
+            No resources match your search. Try another word, or contact us and we
+            will send you the document you need.
           </p>
         )}
+
+
+        
+{/* Explore Our Products */}
+<div className="mt-16 border-t border-gray-100 pt-10">
+  <h2 className="text-2xl font-bold text-brand-blue-dark md:text-3xl">
+    Explore Our Products
+  </h2>
+
+  <p className="mt-3 leading-7 text-gray-600">
+    Want to read more before you download? Visit the product pages for
+    features, uses and FAQs.
+  </p>
+
+  <div className="mt-6 flex flex-wrap gap-3">
+    <a
+      href="/products/aac-blocks"
+      className="rounded-full border border-gray-200 px-5 py-2.5 text-sm font-semibold text-brand-blue hover:border-brand-orange hover:text-brand-orange transition-colors"
+    >
+      AAC Blocks
+    </a>
+
+    <a
+      href="/products/fly-ash-bricks"
+      className="rounded-full border border-gray-200 px-5 py-2.5 text-sm font-semibold text-brand-blue hover:border-brand-orange hover:text-brand-orange transition-colors"
+    >
+      Fly Ash Bricks
+    </a>
+
+    <a
+      href="/products/paver-blocks"
+      className="rounded-full border border-gray-200 px-5 py-2.5 text-sm font-semibold text-brand-blue hover:border-brand-orange hover:text-brand-orange transition-colors"
+    >
+      Paver Blocks
+    </a>
+
+    <a
+      href="/products/fencing-poles"
+      className="rounded-full border border-gray-200 px-5 py-2.5 text-sm font-semibold text-brand-blue hover:border-brand-orange hover:text-brand-orange transition-colors"
+    >
+      Fencing Pole
+    </a>
+
+    <a
+      href="/products/cover-blocks"
+      className="rounded-full border border-gray-200 px-5 py-2.5 text-sm font-semibold text-brand-blue hover:border-brand-orange hover:text-brand-orange transition-colors"
+    >
+      Cover Blocks
+    </a>
+  </div>
+</div>
+
       </Container>
     </section>
   )

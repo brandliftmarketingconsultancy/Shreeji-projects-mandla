@@ -227,46 +227,68 @@ export const footerReadMore = [
 export const contactHero = {
   image: 'https://coneccconcrete.com/wp-content/uploads/2026/01/Contact-Now-Image.webp',
   imageAlt: 'Shreeji support team ready to assist customers',
-  title: 'Contact Us',
-  subtitle: 'Welcome, Feel free to contact us anytime.',
+  title: 'Contact Shreeji Projects',
+  subtitle: 'Call, message or visit us in Mandla for AAC blocks, bricks and other building materials. We are happy to help.',
 }
 
+
 export const contactForm = {
-  heading: 'Hi, Send us a Message',
-  subtext: 'Our team will get in touch with you, Thank You.',
+  heading: 'Send Us a Message',
+  subtext:
+    'Fill in the form and our team will get in touch with you shortly. Thank you.',
   nameLabel: 'Name',
   phoneLabel: 'Phone No',
   locationLabel: 'Location / Place',
   productLabel: 'Product Required',
-  productOptions: ['AAC Blocks', 'Precast Walls'],
+  productOptions: [
+    'AAC Blocks',
+    'Fly Ash Bricks',
+    'Paver Blocks',
+    'Fencing Pole',
+    'Cover Blocks',
+    'Jointing Mortar',
+    'Ready Mix Plaster',
+    'Precast Walls',
+    'Chain Link Fence',
+    'Wire Mesh',
+    'Other',
+  ],
   messageLabel: 'Comment or Message',
+  messagePlaceholder: 'Tell us the product, size and quantity you need',
   emailLabel: 'Email (Optional)',
   emailPlaceholder: 'Only needed for email quotation.',
-  submitLabel: 'Submit',
+  submitLabel: 'Send Message',
+  successMessage:
+    'Thank you. We have received your message and our team will call you shortly.',
+  errorMessage:
+    'Sorry, your message could not be sent. Please try again or call us on +91 7067062323.',
 }
 
+
 export const getInTouch = {
-  title: 'Get in Touch',
+  title: 'Get in Touch with Shreeji Projects',
   description:
-    'Reach out to Shreeji Concrete Solutions for expert guidance and top-notch customer service. Whether you are in Madhya Pradesh or any of our served regions, our team at Shreeji is ready to assist you.',
+    'Reach out to Shreeji Projects for expert guidance and prompt customer service. Whether you are in Mandla, elsewhere in Madhya Pradesh or in Chhattisgarh, our team is ready to help you with AAC blocks, fly ash bricks, paver blocks and more.',
 }
 
 export const callCard = {
   label: 'Call Now!',
-  mapCta: 'See On Map',
-  mapHref: 'https://www.google.com/maps/search/?api=1&query=Conecc+Concrete+Solutions+Pvt+Ltd+Hospet',
+  mapCta: 'See on Map',
+  mapHref:
+    'https://www.google.com/maps/dir//Shreeji+Projects+Mandla,+Patan+Rd,+beside+Axis+Bank,+Mandla,+Bamhori+Panji,+Madhya+Pradesh+470880/@21.1419136,79.085568,11z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x3981e7deb88960f7:0x70c010d12b26a4c3!2m2!1d79.5247289!2d23.4144597?entry=ttu',
 }
 
 export const corporateOffice = {
   image: 'https://coneccconcrete.com/wp-content/uploads/2025/03/after-min.jpg',
-  imageAlt: 'Aerial view of the Shreeji AAC block manufacturing plant',
+  imageAlt: 'Aerial view of the Shreeji Projects factory in Mandla',
   heading: 'Corporate Office:',
 }
 
 export const contactMap = {
   embedSrc:
-    'https://www.google.com/maps?q=Conecc+Concrete+Solutions+Pvt+Ltd,+Hospet,+Karnataka&output=embed',
-  title: 'Shreeji Concrete Solutions location map',
+    'https://www.google.com/maps?q=Shreeji+Projects,+Patan+Road,+beside+Axis+Bank,+Mandla,+Madhya+Pradesh&output=embed',
+  title:
+    'Map showing the Shreeji Projects location in Mandla, Madhya Pradesh',
 }
 
 
@@ -276,64 +298,104 @@ export const contactMap = {
 /*  before shipping. Structure/fields are final; wording is not.      */
 /* ------------------------------------------------------------------ */
 
+
 export const aboutHero = {
-  image:
-    '/images/factory_enhanced.jpg', // TODO: replace with a dedicated About Us hero image
-  imageAlt: 'Shreeji Concrete Solutions manufacturing plant',
-  eyebrow: 'About Shreeji',
-  title: 'Who We Are',
+  breadcrumb: ['Home', 'About Us'],
+  image: '/images/factory_enhanced.jpg',
+  imageAlt: 'Aerial view of the Shreeji Projects AAC blocks factory in Mandla',
+  eyebrow: 'ABOUT SHREEJI',
+  title: 'About Shreeji Projects: AAC Blocks Manufacturer in Mandla',
   subtitle:
-    'Building India stronger, lighter and faster — one AAC block at a time.', // TODO: confirm tagline
+    'Building Madhya Pradesh stronger, lighter and faster, one AAC block at a time.',
+  badge: {
+    icon: 'S',
+    title: 'Shreeji Projects',
+    subtitle: 'Factory, Mandla (M.P.)',
+  },
 }
 
 export const whoWeAre = {
-  eyebrow: 'Our Story',
+  eyebrow: 'OUR STORY',
   title: 'Who We Are',
   paragraphs: [
-    'TODO: Replace with Shreeji\u2019s real founding story \u2014 year founded, founders\u2019 background, and what led to building India\u2019s largest AAC block manufacturing operation.',
-    'TODO: Add a paragraph on what Shreeji has delivered so far \u2014 homes built, projects served, states covered \u2014 backed by real figures.',
-    'TODO: Add a paragraph on certifications (BIS, ISO 9001:2015, IGBC) and what sets Shreeji apart from other manufacturers.',
+    'Shreeji Projects is a building materials manufacturer based in Mandla, Madhya Pradesh. From our factory at Bamhni Banjar, we make AAC blocks, fly ash bricks, paver blocks, fencing poles, cover blocks, jointing mortar, ready mix plaster and precast walls, and we supply chain link fence and wire mesh. Our customers are builders, contractors, dealers and government projects across Madhya Pradesh and Chhattisgarh.',
+    'Our focus is lightweight construction. Shreeji AAC blocks are up to 60% lighter than red bricks, which helps customers cut freight, labour and structural costs and finish projects sooner. Our jointing mortar and ready mix plaster are made to work with the blocks, so you can source the full wall system from one supplier.',
+    'Shreeji Projects is an MSME-registered company with ISO 9001:2015 certification and ISI certification for AAC blocks (IS 2185 Part 3). We are approved for MP BDC Bhopal, MP PWD, MP PIU, MP Police Housing and MP Housing projects.',
   ],
-  image:
-    '/images/factory.jpg', // TODO: swap for a dedicated Who We Are photo if available
-  imageAlt: 'Shreeji AAC block manufacturing plant',
-  cta: 'Get in Touch',
+  image: '/images/factory.jpg',
+  imageAlt:
+    'Aerial view of the Shreeji Projects factory and AAC block stockyard in Mandla, Madhya Pradesh',
+  cta: 'Contact Our Team',
   ctaHref: '/contact',
 }
 
 export const aboutStats = [
-  { value: '1M+', label: 'Homes Built', icon: 'home' }, // TODO: confirm real figure
-  { value: '11+', label: 'States Served', icon: 'map-pin' }, // matches deliveryStates in content.js
-  { value: '3+', label: 'Years In Business', icon: 'calendar' }, // TODO: confirm real figure
-  { value: '60%', label: 'Lighter Than Red Bricks', icon: 'feather' }, // matches homepage claim
+  {
+    value: '60%',
+    label: 'Lighter Than Red Bricks',
+    icon: 'feather',
+  },
+  {
+    value: '10',
+    label: 'Building Material Products',
+    icon: 'package',
+  },
+  {
+    value: '5',
+    label: 'Government Bodies Approved',
+    icon: 'shield-check',
+  },
+  {
+    value: '2',
+    label: 'States Served: MP and Chhattisgarh',
+    icon: 'map-pin',
+  },
 ]
 
 export const whyPartner = {
-  eyebrow: 'Why Partner With Us',
-  title: 'Why Partner With Shreeji?',
+  eyebrow: 'WHY PARTNER WITH US',
+  title: 'Why Partner with Shreeji?',
   points: [
     {
       icon: 'factory',
-      text:
-        'TODO: Replace with Shreeji\u2019s real production capacity and plant count, e.g. "With a production capacity of X million CBM per annum across Y strategic plants, we ensure an uninterrupted supply chain for projects of every size."',
+      title: 'Our Own Plant in Mandla',
+      text: 'We make our AAC blocks, bricks, pavers and precast products at our own factory in Bamhni Banjar, Mandla. This gives us control over quality and a steady supply for projects of every size.',
     },
     {
       icon: 'leaf',
-      text:
-        'Our AAC Blocks are non-toxic and eco-friendly. By choosing Shreeji, you aren\u2019t just building structures \u2014 you\u2019re earning Green Building credits and contributing to a resilient, carbon-conscious world.',
+      title: 'Eco-Friendly Materials',
+      text: 'AAC blocks are non-toxic, and our AAC blocks and fly ash bricks use fly ash, an industrial by-product. They can help your project earn green building credits and support a more carbon-conscious way of building.',
     },
     {
       icon: 'zap',
-      text:
-        'From our lightweight blocks to our Jointing Mortar and Ready Mix Plaster, our ecosystem is engineered for fast-track construction \u2014 helping you reduce labour costs and shorten project timelines.',
+      title: 'A Complete Wall System',
+      text: 'From lightweight blocks to jointing mortar and ready mix plaster, our range is designed for fast-track construction, helping you reduce labour costs and shorten project timelines.',
     },
     {
       icon: 'shield-check',
-      text:
-        'TODO: Replace with real client/builder names Shreeji supplies, if shareable. Our products undergo rigorous testing to ensure superior thermal insulation, fire resistance, and structural integrity.',
+      title: 'Certified and Approved',
+      text: 'Our products are made under ISO 9001:2015 quality systems and our AAC blocks carry ISI certification. We are approved for MP BDC Bhopal, MP PWD, MP PIU, MP Police Housing and MP Housing projects.',
     },
   ],
 }
+
+export const aboutCta = {
+  title: 'Build with Shreeji Projects',
+  description:
+    'Looking for AAC blocks, fly ash bricks, paver blocks or other building materials in Mandla and across Madhya Pradesh? Tell us what you need and our team will share a quote.',
+  primaryLabel: 'Get a Free Quote',
+  primaryHref: '/contact',
+  phoneLabel: 'Call: +91 7067062323',
+  phoneHref: 'tel:+917067062323',
+  products: [
+    { label: 'AAC Blocks', href: '/products/aac-blocks' },
+    { label: 'Fly Ash Bricks', href: '/products/fly-ash-bricks' },
+    { label: 'Paver Blocks', href: '/products/paver-blocks' },
+    { label: 'Fencing Pole', href: '/products/fencing-poles' },
+    { label: 'Cover Blocks', href: '/products/cover-blocks' },
+  ],
+}
+
 
 export const awards = {
   eyebrow: 'Recognition',
@@ -361,7 +423,37 @@ export const awards = {
       icon: 'star',
     },
   ],
+  
 }
+
+export const manufacturingFaqs = [
+  {
+    question: 'How are AAC blocks made?',
+    answer:
+      'AAC blocks are made by mixing cement, lime, fly ash, gypsum, water and a small amount of aluminium powder. The mix is poured into moulds, where the aluminium powder creates tiny air pockets. It is then cut into blocks and cured in an autoclave under steam and high pressure.',
+  },
+  {
+    question: 'What raw materials are used in AAC blocks?',
+    answer:
+      'The main raw materials are cement, lime, fly ash, gypsum and water, with a small amount of aluminium powder as the aerating agent.',
+  },
+  {
+    question: 'Why are AAC blocks cured in an autoclave?',
+    answer:
+      'Autoclaving cures the blocks with high-pressure steam at about 180 to 190 °C. This hardens and strengthens them, which makes them durable and stable in size.',
+  },
+  {
+    question: 'Where is the Shreeji AAC block plant located?',
+    answer:
+      'Our plant is at Gram Mugadara, Bamhni Banjar, Dist. Mandla, Madhya Pradesh. Call +91 7067062323 to arrange a visit.',
+  },
+  {
+    question: 'Can I visit the plant or get a sample?',
+    answer:
+      'Yes. Contact our team to schedule a plant visit or to request a product sample.',
+  },
+]
+
 
 
 

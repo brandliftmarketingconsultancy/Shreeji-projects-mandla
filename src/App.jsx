@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+
 import { Routes, Route } from 'react-router-dom'
 import Layout from './components/layout/Layout.jsx'
 import Home from './pages/Home.jsx'
@@ -13,42 +13,48 @@ import Manufacturing from './pages/Manufacturing.jsx'
 import ProjectsGallery from './pages/ProjectsGallery.jsx'
 import TechnicalResources from './pages/TechnicalResources.jsx'
 import DealerInquiry from './pages/DealerInquiry.jsx'
-import { site } from './data/site.js'
 import ComingSoon from './pages/ComingSoon.jsx'
 
 export default function App() {
-  // Keep <title> / meta description in sync with data/site.js so it stays the
-  // single source of truth (index.html carries a static fallback for pre-JS crawlers).
-  useEffect(() => {
-    document.title = site.metaTitle
-    const metaDesc = document.querySelector('meta[name="description"]')
-    if (metaDesc) metaDesc.setAttribute('content', site.metaDescription)
-  }, [])
-
   return (
     <Layout>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
+
         <Route path="/aac-blocks" element={<AacBlocks />} />
         <Route path="/products/aac-blocks" element={<AacBlocks />} />
         <Route path="/products/fly-ash-bricks" element={<FlyAshBricks />} />
         <Route path="/products/paver-blocks" element={<PaverBlocks />} />
         <Route path="/products/fencing-pole" element={<FencingPole />} />
         <Route path="/products/cover-blocks" element={<CoverBlocks />} />
+
         <Route path="/manufacturing-process" element={<Manufacturing />} />
         <Route path="/manufacturing-plants" element={<Manufacturing />} />
+
         <Route path="/projects" element={<ProjectsGallery />} />
         <Route path="/resources" element={<TechnicalResources />} />
         <Route path="/dealer-inquiry" element={<DealerInquiry />} />
-        {/* Add further pages (Blogs, Certifications) here,
-            reusing the same section/ui components. */}
+
+        <Route
+          path="/products/precast-walls"
+          element={<ComingSoon slug="precast-walls" />}
+        />
+        <Route
+          path="/products/aac-jointing-mortar"
+          element={<ComingSoon slug="aac-jointing-mortar" />}
+        />
+        <Route
+          path="/products/ready-mix-plaster"
+          element={<ComingSoon slug="ready-mix-plaster" />}
+        />
+        <Route
+          path="/products/curve-stone"
+          element={<ComingSoon slug="curve-stone" />}
+        />
+
         <Route path="*" element={<Home />} />
-        <Route path="/products/precast-walls" element={<ComingSoon slug="precast-walls" />} />
-        <Route path="/products/aac-jointing-mortar" element={<ComingSoon slug="aac-jointing-mortar" />} />
-        <Route path="/products/ready-mix-plaster" element={<ComingSoon slug="ready-mix-plaster" />} />
-        <Route path="/products/curve-stone" element={<ComingSoon slug="curve-stone" />} />
       </Routes>
     </Layout>
   )

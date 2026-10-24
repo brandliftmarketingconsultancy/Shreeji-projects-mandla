@@ -1,156 +1,194 @@
-/* ------------------------------------------------------------------ */
-/*  Manufacturing page content                                        */
-/*  processSteps text is transcribed verbatim from real reference     */
-/*  screenshots. Everything else (photos, capacity, QC steps) is      */
-/*  placeholder — TODO markers show what needs Shreeji's real data.    */
-/* ------------------------------------------------------------------ */
 
 export const manufacturingHero = {
-  image:
-    '/images/factory.jpg', // TODO: replace with real plant banner photo
-  imageAlt: 'Shreeji AAC block manufacturing plant floor',
-  eyebrow: 'Behind The Blocks',
-  title: 'Our Manufacturing',
+  image: '/images/factory.jpg',
+  imageAlt:
+    'Aerial view of the Shreeji Projects AAC block manufacturing plant in Mandla',
+  eyebrow: 'BEHIND THE BLOCKS',
+  title: 'AAC Block Manufacturing Plant in Mandla, MP',
   subtitle:
-    'From raw material to finished block — see the plants, machinery, and process behind every Shreeji product.',
+    'From raw material to finished block, see the plant, machinery and process behind every Shreeji AAC block.',
 }
 
 export const plantGallery = {
-  title: 'Our Manufacturing Plants',
-  subtitle: 'A look inside where Shreeji products are made.', // TODO: confirm real plant count/locations
+  title: 'Our AAC Block Manufacturing Plant in Mandla',
+  subtitle:
+    'A look inside the plant at Bamhni Banjar, Mandla, where Shreeji products are made.',
   images: [
     {
       caption: 'Automated Batching Plant',
-      image:
-        '/images/factory-1.jpg', // TODO: real photo
-      imageAlt: 'Shreeji automated batching plant',
+      image: '/images/factory-1.jpg',
+      imageAlt:
+        'Automated batching plant at the Shreeji AAC block factory',
     },
     {
       caption: 'AAC Production Line',
-      image:
-        '/images/factory-3.jpg',
-      imageAlt: 'Shreeji AAC block production line',
+      image: '/images/factory-3.jpg',
+      imageAlt:
+        'AAC block production line at the Shreeji Projects plant',
     },
     {
       caption: 'Autoclave Chamber',
-      image:
-        '/images/factory-2.jpg', // TODO: real photo
-      imageAlt: 'Shreeji autoclave chamber',
+      image: '/images/factory-2.jpg',
+      imageAlt:
+        'Autoclave chamber used to cure AAC blocks at the Shreeji plant',
     },
     {
       caption: 'Finished Goods Yard',
-      image:
-        '/images/factory.jpg',
-      imageAlt: 'Shreeji finished goods storage yard',
+      image: '/images/factory.jpg',
+      imageAlt:
+        'Finished AAC blocks stacked in the Shreeji Projects yard in Mandla',
     },
   ],
 }
 
 export const machinery = {
-  title: 'Machinery',
+  title: 'Machinery Used to Make AAC Blocks',
   items: [
     {
       icon: 'factory',
       title: 'Automated Batching Plant',
       description:
-        'Precisely doses, weighs, and mixes every raw material to ensure a consistent, homogeneous mixture batch after batch.',
+        'Doses, weighs and mixes every raw material precisely, so each batch has a consistent, uniform mixture.',
     },
     {
       icon: 'flame',
       title: 'Autoclave Chamber',
       description:
-        'High-pressure steam chambers that cure blocks at approx. 180\u2013190\u00b0C, developing strength and durability.',
+        'High-pressure steam chambers that cure the blocks at about 180 to 190 °C, developing their strength and durability.',
     },
     {
       icon: 'scissors',
       title: 'Wire Cutting System',
       description:
-        'Cuts set blocks into precise dimensions using tensioned wires for consistent, accurate sizing.',
+        'Cuts the set block cake into precise dimensions using tensioned wires, for consistent and accurate sizing.',
     },
     {
       icon: 'package',
-      title: 'Mould & Handling System',
+      title: 'Mould and Handling System',
       description:
         'Automated mould transport and demoulding equipment that moves blocks safely between production stages.',
     },
   ],
 }
 
-/* Transcribed verbatim from the reference screenshots — this is
-   Shreeji's real published manufacturing-process copy. */
 export const processSteps = [
   {
     title: 'Raw Material Preparation',
     description:
-      'The first step in the manufacturing process of AAC blocks is the preparation of the raw materials. The materials used in the process are cement, lime, fly ash, gypsum, water, and a small amount of aluminium powder. The raw materials are mixed in the right proportions using a mixing machine.',
+      'The first step is preparing the raw materials: cement, lime, fly ash, gypsum, water and a small amount of aluminium powder. Each material is measured and proportioned carefully before mixing.',
   },
   {
     title: 'Mixing',
     description:
-      'Our fully automated batching plant enables accurate dosing, weighing and mixing of all the raw materials. The next step is mixing the prepared raw materials. The mixture is placed in a large vessel and mixed thoroughly until it forms a homogeneous mixture.',
+      'Our automated batching plant doses, weighs and mixes all the raw materials. The mixture is blended thoroughly in a large vessel until it forms a smooth, homogeneous slurry.',
   },
   {
     title: 'Aeration',
     description:
-      'Once the mixture is prepared, it is poured into moulds and allowed to be set for a few hours. During this time, the aluminium powder reacts with the other materials in the mixture, producing hydrogen gas. This process is called aeration and results in tiny air pockets throughout the material, making it lightweight and porous.',
+      'The slurry is poured into moulds and left to rise. The aluminium powder reacts with the other materials and releases hydrogen gas, which forms tiny air pockets throughout the mix. This aeration makes the block lightweight and porous.',
   },
   {
-    title: 'Curing',
+    title: 'Curing and Cutting',
     description:
-      'After the blocks are poured into moulds, they are left to cure for a few hours. Once the blocks have hardened, they are removed from the moulds and cut with wires into blocks with precision accuracy. Then the blocks are placed into an Autoclave.',
+      'The poured mix is left to set for a few hours. Once it has hardened, it is removed from the mould and cut with wires into blocks of precise size. The blocks are then moved to the autoclave.',
   },
   {
     title: 'Autoclaving',
     description:
-      'The blocks are then subjected to steam and heat in an autoclave. The autoclave is a high-pressure chamber that exposes the blocks to high temperatures (approx 180-190 \u00b0C) and steam, which helps to further harden and strengthen them. The autoclaving process takes several hours and is critical in ensuring that the blocks are durable and resistant to damage.',
+      'The blocks are cured with steam under high pressure and temperature (about 180 to 190 °C) in an autoclave. This takes several hours. It hardens and strengthens the blocks, and it is critical to making them durable and resistant to damage.',
   },
   {
-    title: 'Sorting And Packaging',
+    title: 'Sorting and Packaging',
     description:
-      'Once the blocks are removed from the autoclave, they are ready for use in construction. Each block is sorted for any damages and breaks and then packed perfectly for delivery. They can be easily cut, drilled, and shaped using standard tools, making them versatile and easy to work with.',
+      'After autoclaving, the blocks are ready for construction. Each block is checked for damage and breakage, then packed for delivery. AAC blocks can be cut, drilled and shaped easily with standard tools, which makes them quick and simple to work with.',
   },
 ]
 
 export const capacityStats = [
-  { value: '1,000+', label: 'Blocks Produced Daily', icon: 'boxes' }, // TODO: confirm real daily capacity
-  { value: '3', label: 'Manufacturing Plants', icon: 'factory' }, // TODO: confirm real count
-  { value: '24/7', label: 'Production Cycle', icon: 'clock' }, // TODO: confirm shift pattern
-  { value: '100+', label: 'Skilled Workforce', icon: 'users' }, // TODO: confirm real headcount
+  {
+    value: 'ISO 9001:2015',
+    label: 'Certified Quality System',
+    icon: 'shield-check',
+  },
+  {
+    value: 'ISI',
+    label: 'Certified AAC Blocks (IS 2185 Part 3)',
+    icon: 'badge-check',
+  },
+  {
+    value: '6',
+    label: 'Production Stages',
+    icon: 'factory',
+  },
+  {
+    value: '4',
+    label: 'Quality Control Checks',
+    icon: 'clipboard-check',
+  },
 ]
 
 export const qualityControl = {
-  title: 'Quality Control',
+  title: 'Quality Control at Every Stage',
   items: [
     {
       icon: 'flask-conical',
       title: 'Raw Material Testing',
       description:
-        'Every incoming batch of fly ash, cement, and lime is tested for consistency before it enters production.',
+        'Every incoming batch of fly ash, cement and lime is tested for consistency before it enters production.',
     },
     {
       icon: 'search-check',
       title: 'In-Process Quality Checks',
       description:
-        'Mixture density, aeration time, and mould dimensions are monitored at every stage of production.',
+        'Mixture density, aeration time and mould dimensions are monitored at every stage of production.',
     },
     {
       icon: 'gauge',
       title: 'Compressive Strength Testing',
       description:
-        'Sample blocks from every batch are lab-tested for compressive strength before being cleared for dispatch.',
+        'Sample blocks from every batch are lab-tested for compressive strength before they are cleared for dispatch.',
     },
     {
       icon: 'clipboard-check',
-      title: 'Final Inspection & Sorting',
+      title: 'Final Inspection and Sorting',
       description:
         'Each finished block is visually inspected for cracks or damage and sorted before packaging.',
     },
   ],
 }
 
+export const manufacturingFaqs = [
+  {
+    question: 'How are AAC blocks made?',
+    answer:
+      'AAC blocks are made by mixing cement, lime, fly ash, gypsum, water and a small amount of aluminium powder. The mix is poured into moulds, where the aluminium powder creates tiny air pockets. It is then cut into blocks and cured in an autoclave under steam and high pressure.',
+  },
+  {
+    question: 'What raw materials are used in AAC blocks?',
+    answer:
+      'The main raw materials are cement, lime, fly ash, gypsum and water, with a small amount of aluminium powder as the aerating agent.',
+  },
+  {
+    question: 'Why are AAC blocks cured in an autoclave?',
+    answer:
+      'Autoclaving cures the blocks with high-pressure steam at about 180 to 190 °C. This hardens and strengthens them, which makes them durable and stable in size.',
+  },
+  {
+    question: 'Where is the Shreeji AAC block plant located?',
+    answer:
+      'Our plant is at Gram Mugadara, Bamhni Banjar, Dist. Mandla, Madhya Pradesh. Call +91 7067062323 to arrange a visit.',
+  },
+  {
+    question: 'Can I visit the plant or get a sample?',
+    answer:
+      'Yes. Contact our team to schedule a plant visit or to request a product sample.',
+  },
+]
+
 export const manufacturingCta = {
-  title: 'Want To See Our Plant In Person?',
-  subtitle: 'Get in touch to schedule a visit or request a product sample.',
-  cta: 'Contact Us',
+  title: 'Want to See Our Plant in Person?',
+  subtitle:
+    'Get in touch to schedule a visit or request a product sample.',
+  cta: 'Book a Plant Visit',
   ctaHref: '/contact',
 }

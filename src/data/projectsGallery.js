@@ -11,9 +11,9 @@ export const galleryHero = {
     '/images/Shreeji_Hero_Banner.jpg',
   imageAlt: 'Shreeji AAC blocks used on a construction site',
   eyebrow: 'Our Work',
-  title: 'Projects & Gallery',
+  title: 'Projects and Gallery: Shreeji Products at Work',
   subtitle:
-    'A look at real sites built with Shreeji AAC Blocks, Fly Ash Bricks, and Paver installations across residential and commercial projects.',
+    'See Shreeji AAC blocks, fly ash bricks and paver blocks on building sites across Madhya Pradesh and Chhattisgarh. Use this copy only when the page shows real projects.',
 }
 
 export const projectCategories = [
@@ -99,10 +99,10 @@ export const projects = [
 ]
 
 export const galleryStats = [
-  { value: '250+', label: 'Projects Completed' }, // TODO: confirm real figure
-  { value: '11+', label: 'States Served' }, // matches deliveryStates in content.js
-  { value: '50+', label: 'Commercial Sites' }, // TODO: confirm real figure
-  { value: '1000+', label: 'Homes Built' }, // TODO: confirm real figure
+  { value: '60%', label: 'Lighter Than Red Bricks' },
+  { value: '10', label: 'Building Material Products' },
+  { value: '5', label: 'Government Bodies Approved' },
+  { value: '2', label: 'States Served: MP and Chhattisgarh' },
 ]
 
 export const galleryCta = {
