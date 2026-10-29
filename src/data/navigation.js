@@ -30,7 +30,7 @@ export const navLinks = [
   },
   // { label: 'Dealer Inquiry', href: '/dealer-inquiry' },
   { label: 'Contact', href: '/contact' },
-  { label: 'Blogs', href: '/blogs' },
+  // { label: 'Blogs', href: '/blogs' },
 ]
 
 export const contact = {
